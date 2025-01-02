@@ -18,14 +18,14 @@ CN
 - 电报群组:@taichi91
 
 >>MFGA,理论适配:
-- 各大类原生(A15暂不确定是否支持,但已适配)
-- 各大假类原生
-- ColorOS13-15(请在设置中启用Roboto)
-- OxygenOS 12-15
-- RealmeUI
-- *Flyme(可能存在bug)
-- MIUI14(可能需要空字体模块)
-- 澎湃OS 1/2.0(可能存在bug,要空字体模块)
+-  各大类原生(A15暂不确定是否支持,但已适配)
+-  各大假类原生
+-  ColorOS13-15(请在设置中启用Roboto)
+-  OxygenOS 12-15
+-  RealmeUI
+-  *Flyme(可能存在bug)
+-  MIUI14(可能需要空字体模块)
+-  澎湃OS 1/2.0(可能存在bug,要空字体模块)
  
    ***⚠请使用最新版本的管理器⚠***
 
@@ -178,50 +178,31 @@ U+16100-U+16139(U+1613F)
 𖄀𖄁𖄂𖄃𖄄𖄅𖄆𖄇𖄈𖄉𖄊𖄓𖄋𖄌𖄔𖄍𖄕𖄎𖄖𖄏𖄗
 ```
 - 2.[全球首发(6)]Unicode16全覆盖包括但不限于
+```
 传统计算机符号补充(Symbols for Legacy Computing Supplement)
-```
 𜲒𜲓𜲔𜲕𜲖𜷾𜷿𜷽
-```
 计算机符号(Symbols for Legacy Computing)
-```
 🯋🯍
-```
 埃及象形文字扩展A(Egyptian Hieroglyphs Extended-A)
-```
 𓑠𓑢𓑡𓒃𓒋𓑵𓑵𓒎𓒖𓒤𓒜𓒣𓒫𓔅𓔌𓔃𓔂𓕍𓕔𓕛𓕣𓕦𓖤𓖳𓖽𓖾𓗆𓖞𓟣𓟳𓟊𓟅𓝹𓝩𓛱𓛺𓜋𓚢𓚤𓚡𓖡𓩓𓩒𓩞𓪥𓪯𓬻𓰕𓰓𓰟𓹄𓸄
-```
 卡纳达文(Kannada)
-```
 ೜
-```
 巴黎文(Balinese)
-```
 ᭎᭏᭿
-```
 加勒来文(Garay)
-```
 𐵀𐵁𐵂𐵓𐵛𐵚𐵪𐵫𐵻𐵤𐵍𐵕𐵣𐵴𐵽𐶄𐵻𐵍𐵆𐵇𐵏𐵔𐵣𐵫𐵼
-```
 图鲁提加拉文(Tulu-Tigalari)
-```
 𑎀𑎁𑎂𑎃𑎄𑎅𑎆𑎇𑎎𑎖𑎜𑎤𑎚𑎳𑎻𑎲𑎡𑎣𑏌𑏍𑏎
-```
 缅甸扩展C(Myanmar Extended-C)
-```
 𑛑𑛒𑛓𑛔𑛕𑛖𑛗𑛘𑛙𑛚𑛛𑛜𑛝𑛞𑛟𑛠𑛡𑛢𑛣
-```
 苏努瓦文(Sunuwar)
-```
 𑯀𑯂𑯂𑯋𑯌𑯒𑯑𑯙𑯔𑯍𑯛𑯕𑯴𑯰𑯱𑯹𑯷𑯶𑯸𑯟𑯡
-```
 扩展箭头C(Supplemental Arrows-C)
-```
 🣀🣁
-```
 阿拉伯扩展C(Arabic Extended-C)
-```
 𐻂𐻃𐻄𐻼
 ```
+
 - 等等共5187个新字符,这里只是举例
  
  15.5.2.12-13(1552121302)
@@ -306,12 +287,18 @@ Recent version update log:
 - 1. Update all fonts to the latest version
 - 2. Fix Google  The problem that the Play Store still cannot cover
 - 3. Fix the problem that service.sh does not exist in the path
-- 4. Delete the private area ⿰又昔 in PlangothicP1 and change it to ⿰高考加油E020)()
-- 5. Add private area U+E021-U+E023()
-- 6. Add U+F0000(󰀀) for the expansion of private area A
+- 4. Delete the private area ⿰又昔 in PlangothicP1 and change it to ⿰高考加油E020)
+```
+
+```
+- 5. Add private area U+E021-U+E023
+```
+
+```
+- 6. Add U+F0000 for the expansion of private area A
  
 9.15 Supplementary log
-- 1. Optimize the font size and font of 󰀀
+- 1. Optimize the font size and font
 - 2. Optimize other symbols
  
 9.20 Supplementary log
@@ -380,8 +367,10 @@ Gurung khema was made by myself with fontcreator based on the picture, which may
 15.3.3.11-30-AI(15331130)
 - 1. Use ChatGPT to update and remove the Arabic numerals and English uppercase and lowercase letters that come with supplementary fonts (Noto, a total of 22 ttf/otf)
 15.3.4.12-02-AI(15341202)
-- 1. Use ChatGPT to complete most of the Unicode16.0 traditional computer Symbols Supplement  (there are still 70 characters that cannot be overwritten, I tried my best)
+- 1. Use ChatGPT to complete most of the Unicode16.0 traditional computer Symbols Supplement  ~(there are still 70 characters that cannot be overwritten, I tried my best)~
+```
 𜰀𜰁𜰂𜰃𜰄𜰅𜰆𜰇𜰈𜰉𜰊𜰋𜰌𜰍𜰎𜰐𜰑𜰒𜰓𜰔𜰕𜰖𜰤𜰣𜰤𜰥𜴣𜴥𜴽𜵍𜵎𜵆𜰏
+```
 - 2. Use ChatGPT to remove Kanchenjunga-Regular Arabic numerals and English uppercase and lowercase letters that come with ttf
  
 15.3.5/6.12-03-AI(1535/61203)
