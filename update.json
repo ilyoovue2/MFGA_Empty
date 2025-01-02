@@ -1,0 +1,16 @@
+{
+  "version": "15.6.0.01-02",
+  "versionCode": 1560010202,
+  "changelog": [
+    "1. Update Iosevka Medium to 32.3.1",
+    "2. Update Roboto to V7.0 Beta33",
+    "Roboto upstream update log:",
+    "a. Fix visual alignment of w / Δ",
+    "b. Optimize α / Ω / ω / Ћ",
+    "c. Optimize italics đ / ŋ / þ / ә / τ / ι / γ",
+    "d. Optimize sub/sup numbers",
+    "e. Ensure all glyphs are vertically aligned",
+    "3. Change module ID, it will be automatically uninstalled"
+  ],
+  "downloadUrl": "https://1drv.ms/f/c/4546702151579dbe/EjM3e6_sq4VKhFSl3FLNpEoBYnPKX2_oEFB-aC0oGVADKA"
+}
