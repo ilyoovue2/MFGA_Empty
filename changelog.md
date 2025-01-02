@@ -15,8 +15,8 @@ e.确保所有字形垂直对齐
 -------
 EN
 15.6.1.01-02(1561010203)
-- 1. Update Iosevka Medium to 32.3.1
-- 2. Update Roboto to V7.0 Beta33
+- 1.Update Iosevka Medium to 32.3.1
+- 2.Update Roboto to V7.0 Beta33
 ```
 Roboto upstream changelog:
 a. Fix visual alignment of w / Δ
@@ -25,5 +25,5 @@ c. Optimize italics đ / ŋ / þ / ә / τ / ι / γ
 d. Optimize sub/sup numbers
 e. Ensure vertical alignment of all glyphs
 ```
-- 3. Changing the module ID will automatically uninstall the old module
-- 4. Adding a new update channel, you can update directly in the manager
+- 3.Changing the module ID will automatically uninstall the old module
+- 4.Adding a new update channel, you can update directly in the manager
