@@ -1,7 +1,7 @@
 CN
 
 
-#Power by 咿云冷雨
+# Power by 咿云冷雨
 
 ##⚠本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11985/1.0.2+刷入！！！
  
@@ -12,10 +12,10 @@ CN
 >>[如果设置界面Google打不开、Play商店打不开请单独对play服务开启隐藏/卸载模块¹](这是play integrity fix模块的问题)
  
 >>[KernelSU,apatch请关掉默认卸载模块²]
-
- ¹与²并不冲突,仔细读
-
-- 电报群组:@taichi91
+ 
+ ❗¹与²并不冲突,仔细读❗
+ 
+  ❄电报群组:@taichi91❄
 
 >>MFGA,理论适配:
 -  各大类原生(A15暂不确定是否支持,但已适配)
@@ -249,7 +249,6 @@ e.确保所有字形垂直对齐
 
 EN
 
-#Modified based on Chikushi A-Maru font
 # Power by YiyunLengyu
 
 ##⚠This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, kernelSU 11985/1.0.2+ to be flashed! ! ! 
@@ -259,10 +258,10 @@ EN
 
 >>[Support framework KernelSU, apatch "Please turn off the default uninstall module(ksu)²", magisk]
  
- ¹ and ² do not conflict, read carefully!!!
-
-Telegram Group: @taichi91
-
+ ❗¹ and ² do not conflict, read carefully!!!❗
+ 
+❄Telegram Group: @taichi91❄
+ 
 >>Tsukushi A-circle global font module, theoretical adaptation
 - All major categories of native (A15 is not sure whether it supports it, but it has been adapted)
 - All major fake categories of native
