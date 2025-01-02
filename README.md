@@ -1,7 +1,7 @@
 CN
 
-#基于筑紫A丸字体修改
-#            Power by 咿云冷雨
+
+#Power by 咿云冷雨
 
 ##⚠本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11985/1.0.2+刷入！！！
 >>[注意!执行action.sh指的是点击管理器里面的执行(magisk为“操作”,apatch为“Action”)按钮,执行则覆盖全局Google GMS英文]
@@ -13,15 +13,15 @@ CN
 
 电报群组:@taichi91
 
->>筑紫A圆全局字体模块,理论适配:
--各大类原生(A15暂不确定是否支持,但已适配)
--各大假类原生
--ColorOS13-15(请在设置中启用Roboto)
--OxygenOS 12-15
--RealmeUI
--Flyme(可能存在bug)
--MIUI14(可能需要空字体模块)
--澎湃OS 1/2.0(可能存在bug,要空字体模块)
+>>MFGA,理论适配:
+- *各大类原生(A15暂不确定是否支持,但已适配)
+- *各大假类原生
+- *ColorOS13-15(请在设置中启用Roboto)
+- *OxygenOS 12-15
+- *RealmeUI
+- *Flyme(可能存在bug)
+- *MIUI14(可能需要空字体模块)
+- *澎湃OS 1/2.0(可能存在bug,要空字体模块)
  
    ***⚠请使用最新版本的管理器⚠***
 
