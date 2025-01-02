@@ -116,7 +116,9 @@ Gurung khema是我自己根据图片用fontcreator做的,可能不符合官方�
  
  15.3.4.12-02-AI(15341202)
 - 1.利用ChatGPT补全大部分Unicode16.0传统计算机符号补充(Symbols for Legacy Computing Supplement)~(仍有70几个字符无法覆盖,尽力了)~
+```
 𜰀𜰁𜰂𜰃𜰄𜰅𜰆𜰇𜰈𜰉𜰊𜰋𜰌𜰍𜰎𜰐𜰑𜰒𜰓𜰔𜰕𜰖𜰤𜰣𜰤𜰥𜴣𜴥𜴽𜵍𜵎𜵆𜰏
+```
 - 2.利用ChatGPT去除Kanchenjunga-Regular.ttf中自带的阿拉伯数字、英文的大小写字母
  
  15.3.6.12-06-RC1(1536120601)
@@ -133,7 +135,7 @@ Gurung khema是我自己根据图片用fontcreator做的,可能不符合官方�
 ```
 🢴🢵🢶🢷🢸🢹🢺🢻
 ```
-- 2.补全计算机符号(Symbols for Legacy Computing)中Unicode16新增的字符(U+1FBCB、U+1FBCD除外请等待后续更新)
+- 2.补全计算机符号(Symbols for Legacy Computing)中Unicode16新增的字符~(U+1FBCB、U+1FBCD除外请等待后续更新)~
 ```
 🯌🯎🯏🯐🯑🯒🯓🯔🯕🯖🯗🯘🯙🯚🯛🯜🯝🯞🯟🯠🯢🯡🯣🯤🯥🯦🯧🯨🯩🯪🯫🯬🯭🯮🯯
 ```
@@ -155,7 +157,7 @@ U+1E5D0-U+1E5FF
 - 1.解决一个潜在错误
  15.5.0.12-10-OpenType(1550121001)
 - 1.再次重构底层,替换原版Roboto所有英数及基本符号
-- 2.再次启用OpenType 连字特性@帆陌枫(maplemono)
+- 2.再次启用OpenType 连字特性@帆陌枫 (maplemono)
 ```
 [INFO][FIXME][DEBUG][ERROR][FATAL][WARN][TODO]
 ```
