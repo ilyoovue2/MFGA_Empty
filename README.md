@@ -487,5 +487,5 @@ b. Optimize α / Ω / ω / Ћ
 c. Optimize italics đ / ŋ / þ / ә / τ / ι / γ
 d. Optimize sub/sup numbers
 e. Ensure all glyphs are vertically aligned
-3. Change module ID, it will be automatically uninstalled
 ```
+3. Change module ID, it will be automatically uninstalled
