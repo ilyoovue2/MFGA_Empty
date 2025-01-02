@@ -97,10 +97,10 @@ Gurung khema是我自己根据图片用fontcreator做的,可能不符合官方�
  15.3.6.12-06-RC1(1536120601)
 1.紧急修复Unicode7.0-13.0大量表情符号缺失
 2.新增Symbola-13.otf和NotoSansSymbols2-Regular.ttf覆盖更多表情符号(Unicode 7-16)
-3.修复由PlangothicP2-Regular.ttf引起的空格U+2000~U+200A无论在哪都会显示的问题(如YouTube点赞处)
+3.修复由PlangothicP2-Regular.ttf引起的空格U+2000-U+200A无论在哪都会显示的问题(如YouTube点赞处)
  15.3.6.12-06-RC2(1536120602)
 1.修复藏文显示
-2.藏文缺失符号修补(U+0F8C~U+0F8F,U+0FCE,U+0FD0~U+0FDA)共16个符号
+2.藏文缺失符号修补(U+0F8C-U+0F8F,U+0FCE,U+0FD0-U+0FDA)共16个符号
  15.3.7.12-06-RC3(1537120603)
 1.补全扩展箭头C分区(Supplemental Arrows-C)中Unicode16新增的字符(U+1F8B2、U+1F8C0,除外请等待后续更新)
 🢴🢵🢶🢷🢸🢹🢺🢻
@@ -114,7 +114,7 @@ Gurung khema是我自己根据图片用fontcreator做的,可能不符合官方�
 4.删除自定义功能解决根状态下字形字符错乱导致不支持Unicode16字符在部分页面显示错误、吞字问题
  15.4.1.12-08(1541120807)
 1.[全球首发(5)]支持Unicode16的奥尔奥纳尔字母(Ol Onal)
-U+1E5D0~U+1E5FF
+U+1E5D0-U+1E5FF
 𞗐𞗑𞗒𞗓𞗔𞗕𞗖𞗟𞗗𞗘𞗙𞗚𞗛𞗜𞗝𞗞𞗦𞗥𞗤𞗣𞗢𞗡𞗠𞗨𞗱𞗺𞗹𞗸𞗴𞗵𞗶𞗷
  15.4.2.12-09(1541120900)
 1.解决一个潜在错误
@@ -122,7 +122,7 @@ U+1E5D0~U+1E5FF
 1.再次重构底层,替换原版Roboto所有英数及基本符号
 2.再次启用OpenType 连字特性@帆陌枫(maplemono)
 [INFO][FIXME][DEBUG][ERROR][FATAL][WARN][TODO]
-3.从PlangothicP2-Regular中彻底删除U+2000~U+200A
+3.从PlangothicP2-Regular中彻底删除U+2000-U+200A
  15.5.1.12-13-OpenType(1551121301)
 1.优化Unicode16的古隆凯玛文(Gurung khema)且符合规范
 U+16100-U+16139(U+1613F)
@@ -164,7 +164,7 @@ c.修复了斜体样式中 cv31、cv33 和 cv35 字形组合不起作用的问�
 d.补充了缺失的摄氏度（℃）和华氏度（℉）符号
 e.增加了更多符号身份信息
 ```
-2.删除Noto Color Emoji中的U+1F17F、U+1F17E、U+1F171、U+1F170,因为颜色与U+1F172~U+1F18D不一致(改为显示Symbola-13.otf中的对应符号)
+2.删除Noto Color Emoji中的U+1F17F、U+1F17E、U+1F171、U+1F170,因为颜色与U+1F172-U+1F18D不一致(改为显示Symbola-13.otf中的对应符号)
 3.删除无效字体Noto Color Emoji-flag
  15.5.5.12-19(1555121902)
 1.删除Noto Color Emoji中的U+24C2
@@ -294,10 +294,10 @@ This is beta version and not published
 15.3.6.12-06-RC1(1536120601)
 1. Urgently fix a large number of Unicode7.0-13.0 emoji missing
 2. Added Symbola-13.otf and NotoSansSymbols2-Regular.ttf to cover more emojis (Unicode 7-16)
-3. Fixed the problem caused by PlangothicP2-Regular.ttf that spaces U+2000~U+200A will be displayed no matter where (such as YouTube likes)
+3. Fixed the problem caused by PlangothicP2-Regular.ttf that spaces U+2000-U+200A will be displayed no matter where (such as YouTube likes)
 15.3.6.12-06-RC2(1536120602)
 1. Fix Tibetan display
-2. Repair of missing symbols in Tibetan (U+0F8C~U+0F8F、U+0FCE, U+0FD0~U+0FDA) A total of 16 symbols
+2. Repair of missing symbols in Tibetan (U+0F8C-U+0F8F、U+0FCE, U+0FD0-U+0FDA) A total of 16 symbols
 15.3.7.12-06-RC3(1537120603)
 1. Complete the new characters in Unicode16 in Supplemental Arrows-C (except U+1F8B2,U+1F8C0,please wait for subsequent updates)
 🢴🢵🢶🢷🢸🢹🢺🢻
@@ -311,7 +311,7 @@ This is beta version and not published
 4. Delete the custom function to solve the problem of incorrect glyph characters in the root state, which does not support Unicode16 characters to display errors and swallow characters on some pages.
 15.4.1.12-08(1541120807)
 1. [Global debut (5)] Support for Ol Onal of Unicode16
-U+1E5D0~U+1E5FF
+U+1E5D0-U+1E5FF
 𞗐𞗑𞗒𞗓𞗔𞗕𞗖𞗟𞗗𞗘𞗙𞗚𞗛𞗜𞗝𞗞𞗦𞗥𞗤𞗣𞗢𞗡𞗠𞗨𞗱𞗺𞗹𞗸𞗴𞗵𞗶𞗷
 15.4.2.12-09(1541120900)
 1. Resolve a potential error
@@ -319,7 +319,7 @@ U+1E5D0~U+1E5FF
 1. Reconstruct the bottom layer again and replace all the English numerals and basic symbols of the original Roboto
 2. Enable the OpenType ligature feature again@帆陌枫(maplemono)
 [INFO][FIXME][DEBUG][ERROR][FATAL][WARN][TODO]
-3. Completely delete U+2000~U+200A from PlangothicP2-Regular
+3. Completely delete U+2000-U+200A from PlangothicP2-Regular
 15.5.1.12-13-OpenType(1551121301)
 1. Optimize the Gurung khema of Unicode16 and comply with the specification
 U+16100-U+16139(U+1613F)
@@ -361,7 +361,7 @@ c.Fix cv31, cv33, cv35 combos not working in italic style
 d.Add missing ℃, ℉ 
 e.More identity info
 ```
-2. Delete U+1F17F, U+1F17E, U+1F171, and U+1F170 in Noto Color Emoji because the colors are inconsistent with U+1F172~U+1F18D (show the corresponding symbols in Symbola-13.otf instead)
+2. Delete U+1F17F, U+1F17E, U+1F171, and U+1F170 in Noto Color Emoji because the colors are inconsistent with U+1F172-U+1F18D (show the corresponding symbols in Symbola-13.otf instead)
 3. Delete invalid font Noto Color Emoji-flag
 15.5.5.12-19(1555121902)
 1. Delete U+24C2 in Noto Color Emoji
