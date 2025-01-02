@@ -243,6 +243,7 @@ d.优化 sub/sup 数字
 e.确保所有字形垂直对齐
 ```
 - 3.更换模块ID,会自动卸载旧模块
+ 
 15.6.1.01-02(1561010203)
 - 1.新增更新渠道 可直接在管理器更新
 -----------------------------------------------
@@ -490,5 +491,6 @@ d. Optimize sub/sup numbers
 e. Ensure all glyphs are vertically aligned
 ```
 - 3.Change module ID, it will be automatically uninstalled
+ 
 15.6.1.01-02(1561010203)
 - 1.Adding a new update channel, you can update directly in the manager
