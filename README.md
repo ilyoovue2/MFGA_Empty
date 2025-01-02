@@ -91,7 +91,7 @@ U+16100-U+16139(U+1613F)
 ```
 𖄀𖄁𖄂𖄃𖄄𖄅𖄆𖄇𖄈𖄉𖄊𖄓𖄋𖄌𖄔𖄍𖄕𖄎𖄖𖄏𖄗
 ```
-~⚠警告⚠
+- ~⚠警告⚠
 Gurung khema是我自己根据图片用fontcreator做的,可能不符合官方规范(相关信息太少了)~
  15.3.2.11-30(15321130)
 - 1.修复一加设备中重启输入密码页面依旧为默认字体的问题(请在设置中启用Roboto)
@@ -101,69 +101,101 @@ Gurung khema是我自己根据图片用fontcreator做的,可能不符合官方�
  15.3.4.12-02-AI(15341202)
 - 1.利用ChatGPT补全大部分Unicode16.0传统计算机符号补充(Symbols for Legacy Computing Supplement)~(仍有70几个字符无法覆盖,尽力了)~
 𜰀𜰁𜰂𜰃𜰄𜰅𜰆𜰇𜰈𜰉𜰊𜰋𜰌𜰍𜰎𜰐𜰑𜰒𜰓𜰔𜰕𜰖𜰤𜰣𜰤𜰥𜴣𜴥𜴽𜵍𜵎𜵆𜰏
-2.利用ChatGPT去除Kanchenjunga-Regular.ttf中自带的阿拉伯数字、英文的大小写字母
+- 2.利用ChatGPT去除Kanchenjunga-Regular.ttf中自带的阿拉伯数字、英文的大小写字母
  15.3.6.12-06-RC1(1536120601)
-1.紧急修复Unicode7.0-13.0大量表情符号缺失
-2.新增Symbola-13.otf和NotoSansSymbols2-Regular.ttf覆盖更多表情符号(Unicode 7-16)
-3.修复由PlangothicP2-Regular.ttf引起的空格U+2000-U+200A无论在哪都会显示的问题(如YouTube点赞处)
+- 1.紧急修复Unicode7.0-13.0大量表情符号缺失
+- 2.新增Symbola-13.otf和NotoSansSymbols2-Regular.ttf覆盖更多表情符号(Unicode 7-16)
+- 3.修复由PlangothicP2-Regular.ttf引起的空格U+2000-U+200A无论在哪都会显示的问题(如YouTube点赞处)
  15.3.6.12-06-RC2(1536120602)
-1.修复藏文显示
-2.藏文缺失符号修补(U+0F8C-U+0F8F,U+0FCE,U+0FD0-U+0FDA)共16个符号
+- 1.修复藏文显示
+- 2.藏文缺失符号修补(U+0F8C-U+0F8F,U+0FCE,U+0FD0-U+0FDA)共16个符号
  15.3.7.12-06-RC3(1537120603)
-1.补全扩展箭头C分区(Supplemental Arrows-C)中Unicode16新增的字符(U+1F8B2、U+1F8C0,除外请等待后续更新)
+- 1.补全扩展箭头C分区(Supplemental Arrows-C)中Unicode16新增的字符~(U+1F8B2、U+1F8C0除外请等待后续更新)~
+```
 🢴🢵🢶🢷🢸🢹🢺🢻
-2.补全计算机符号(Symbols for Legacy Computing)中Unicode16新增的字符(U+1FBCB、U+1FBCD除外请等待后续更新)
+```
+- 2.补全计算机符号(Symbols for Legacy Computing)中Unicode16新增的字符(U+1FBCB、U+1FBCD除外请等待后续更新)
+```
 🯌🯎🯏🯐🯑🯒🯓🯔🯕🯖🯗🯘🯙🯚🯛🯜🯝🯞🯟🯠🯢🯡🯣🯤🯥🯦🯧🯨🯩🯪🯫🯬🯭🯮🯯
-3.修复由于fonts.xml的书写错误导致的LinearA分区(NotoSansLinearA-Regular.otf)所有Unicode全都看不见的问题
+```
+- 3.修复由于fonts.xml的书写错误导致的LinearA分区(NotoSansLinearA-Regular.otf)所有Unicode全都看不见的问题
  15.4.0.12-08-EE(1540120801)
-1.更新Unknown symbol supplementRegular到32.2.1
-2.调整Unknown symbol supplementRegular和Symbola-13的优先级
-3.新增font_fallback.xml解决A15类原生和部分C15设备适配问题(不会删除fonts_fallback.xml)
-4.删除自定义功能解决根状态下字形字符错乱导致不支持Unicode16字符在部分页面显示错误、吞字问题
+- 1.更新Unknown symbol supplementRegular到32.2.1
+- 2.调整Unknown symbol supplementRegular和Symbola-13的优先级
+- 3.新增font_fallback.xml解决A15类原生和部分C15设备适配问题(不会删除fonts_fallback.xml)
+- 4.删除自定义功能解决根状态下字形字符错乱导致不支持Unicode16字符在部分页面显示错误、吞字问题
  15.4.1.12-08(1541120807)
-1.[全球首发(5)]支持Unicode16的奥尔奥纳尔字母(Ol Onal)
+- 1.[全球首发(5)]支持Unicode16的奥尔奥纳尔字母(Ol Onal)
+```
 U+1E5D0-U+1E5FF
 𞗐𞗑𞗒𞗓𞗔𞗕𞗖𞗟𞗗𞗘𞗙𞗚𞗛𞗜𞗝𞗞𞗦𞗥𞗤𞗣𞗢𞗡𞗠𞗨𞗱𞗺𞗹𞗸𞗴𞗵𞗶𞗷
+```
  15.4.2.12-09(1541120900)
-1.解决一个潜在错误
+- 1.解决一个潜在错误
  15.5.0.12-10-OpenType(1550121001)
-1.再次重构底层,替换原版Roboto所有英数及基本符号
-2.再次启用OpenType 连字特性@帆陌枫(maplemono)
+- 1.再次重构底层,替换原版Roboto所有英数及基本符号
+- 2.再次启用OpenType 连字特性@帆陌枫(maplemono)
+```
 [INFO][FIXME][DEBUG][ERROR][FATAL][WARN][TODO]
-3.从PlangothicP2-Regular中彻底删除U+2000-U+200A
+```
+- 3.从PlangothicP2-Regular中彻底删除U+2000-U+200A
  15.5.1.12-13-OpenType(1551121301)
-1.优化Unicode16的古隆凯玛文(Gurung khema)且符合规范
+- 1.优化Unicode16的古隆凯玛文(Gurung khema)且符合规范
+```
 U+16100-U+16139(U+1613F)
 𖄀𖄁𖄂𖄃𖄄𖄅𖄆𖄇𖄈𖄉𖄊𖄓𖄋𖄌𖄔𖄍𖄕𖄎𖄖𖄏𖄗
-2.[全球首发(6)]Unicode16全覆盖包括但不限于
+```
+- 2.[全球首发(6)]Unicode16全覆盖包括但不限于
 传统计算机符号补充(Symbols for Legacy Computing Supplement)
+```
 𜲒𜲓𜲔𜲕𜲖𜷾𜷿𜷽
+```
 计算机符号(Symbols for Legacy Computing)
+```
 🯋🯍
+```
 埃及象形文字扩展A(Egyptian Hieroglyphs Extended-A)
+```
 𓑠𓑢𓑡𓒃𓒋𓑵𓑵𓒎𓒖𓒤𓒜𓒣𓒫𓔅𓔌𓔃𓔂𓕍𓕔𓕛𓕣𓕦𓖤𓖳𓖽𓖾𓗆𓖞𓟣𓟳𓟊𓟅𓝹𓝩𓛱𓛺𓜋𓚢𓚤𓚡𓖡𓩓𓩒𓩞𓪥𓪯𓬻𓰕𓰓𓰟𓹄𓸄
+```
 卡纳达文(Kannada)
+```
 ೜
+```
 巴黎文(Balinese)
+```
 ᭎᭏᭿
+```
 加勒来文(Garay)
+```
 𐵀𐵁𐵂𐵓𐵛𐵚𐵪𐵫𐵻𐵤𐵍𐵕𐵣𐵴𐵽𐶄𐵻𐵍𐵆𐵇𐵏𐵔𐵣𐵫𐵼
+```
 图鲁提加拉文(Tulu-Tigalari)
+```
 𑎀𑎁𑎂𑎃𑎄𑎅𑎆𑎇𑎎𑎖𑎜𑎤𑎚𑎳𑎻𑎲𑎡𑎣𑏌𑏍𑏎
+```
 缅甸扩展C(Myanmar Extended-C)
+```
 𑛑𑛒𑛓𑛔𑛕𑛖𑛗𑛘𑛙𑛚𑛛𑛜𑛝𑛞𑛟𑛠𑛡𑛢𑛣
+```
 苏努瓦文(Sunuwar)
+```
 𑯀𑯂𑯂𑯋𑯌𑯒𑯑𑯙𑯔𑯍𑯛𑯕𑯴𑯰𑯱𑯹𑯷𑯶𑯸𑯟𑯡
+```
 扩展箭头C(Supplemental Arrows-C)
+```
 🣀🣁
+```
 阿拉伯扩展C(Arabic Extended-C)
+```
 𐻂𐻃𐻄𐻼
-等等共5187个新字符,这里只是举例
+```
+- 等等共5187个新字符,这里只是举例
  15.5.2.12-13(1552121302)
-1.优化模块体积
-2.删除并重定义PlangothicP3
+- 1.优化模块体积
+- 2.删除并重定义PlangothicP3
  15.5.3.12-15(1553121501)
-1.更新Roboto到V7.0 Beta32
+- 1.更新Roboto到V7.0 Beta32
 ```
 Roboto上游更新日志:
 a.纠正了预构建的 Nerd Font 字符集（glyphset）和字体的固定间距属性
@@ -172,18 +204,18 @@ c.修复了斜体样式中 cv31、cv33 和 cv35 字形组合不起作用的问�
 d.补充了缺失的摄氏度（℃）和华氏度（℉）符号
 e.增加了更多符号身份信息
 ```
-2.删除Noto Color Emoji中的U+1F17F、U+1F17E、U+1F171、U+1F170,因为颜色与U+1F172-U+1F18D不一致(改为显示Symbola-13.otf中的对应符号)
-3.删除无效字体Noto Color Emoji-flag
+- 2.删除Noto Color Emoji中的U+1F17F、U+1F17E、U+1F171、U+1F170,因为颜色与U+1F172-U+1F18D不一致(改为显示Symbola-13.otf中的对应符号)
+- 3.删除无效字体Noto Color Emoji-flag
  15.5.5.12-19(1555121902)
-1.删除Noto Color Emoji中的U+24C2
-2.优化action.sh执行逻辑,新增点击退出
-3.彻底解决action.sh执行后管理器卡顿问题
+- 1.删除Noto Color Emoji中的U+24C2
+- 2.优化action.sh执行逻辑,新增点击退出
+- 3.彻底解决action.sh执行后管理器卡顿问题
  15.5.6.12-27-AI(1556122701)
-1.更新PlangothicP1、PlangothicP2到最新版本并利用ChatGPT完成前面更新中提到的一些补丁
-2.更新Iosevka Medium到32.3.0
+- 1.更新PlangothicP1、PlangothicP2到最新版本并利用ChatGPT完成前面更新中提到的一些补丁
+- 2.更新Iosevka Medium到32.3.0
  15.6.0.01-02(1560010201)
-1.更新Iosevka Medium到32.3.1
-2.更新Roboto到V7.0 Beta33
+- 1.更新Iosevka Medium到32.3.1
+- 2.更新Roboto到V7.0 Beta33
 ```
 Roboto上游更新日志:
 a.修复 w / Δ 的视觉对齐
@@ -192,7 +224,7 @@ c.优化斜体 đ / ŋ / þ / ә / τ / ι / γ
 d.优化 sub/sup 数字
 e.确保所有字形垂直对齐
 ```
-3.更换模块ID,会自动卸载旧模块
+- 3.更换模块ID,会自动卸载旧模块
 
 -----------------------------------------------
 
