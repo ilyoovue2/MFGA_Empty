@@ -266,196 +266,154 @@ e.确保所有字形垂直对齐
 -----------------------------------------------
 
 
-EN
+Power by 咿云冷雨
 
-#Modified based on Chikushi A-Maru font
-# Power by YiyunLengyu
+⚠ This module's new version is in the testing phase. Since action.sh is used, you need to install Magisk v28.0+, Alpha 28001+, KernelSU 11985/1.0.2+!!!
 
-##⚠This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, kernelSU 11985/1.0.2+ to be flashed! ! ! 
->>[Note! Executing action.sh means clicking the execute (operation) button in the manager]
->>[The manager is kernelSU or apatch or magisk (alpha)]
->>[If the settings interface cannot be opened by Google or the Play store cannot be opened, please enable the (magisk)hide/uninstall module(ksu)² for the all play service](This is a problem with the "play integrity fix" module「pif」)
+> > [Note! Executing action.sh means clicking the execute button in the manager (Magisk、Apatch: "Action"). Execution applies the global English Google GMS font.]
 
->>[Support framework KernelSU, apatch "Please turn off the default uninstall module(ksu)²", magisk]
- 
- ¹ and ² do not conflict, read carefully!!!
+> > [The "manager" refers to KernelSU, Apatch, or Magisk (Alpha).]
+
+> > [If the Google settings interface or Play Store cannot open, please enable hiding/uninstall the module for Play services separately¹ (this is an issue with the Play Integrity Fix module).]
+
+
+> > [For KernelSU and Apatch, disable the default module uninstallation option².]
+
+
+¹ and ² do not conflict; please read carefully.
 
 Telegram Group: @taichi91
 
->>Tsukushi A-circle global font module, theoretical adaptation
-- All major categories of native (A15 is not sure whether it supports it, but it has been adapted)
-- All major fake categories of native
-- ColorOS13-15(Please enable Roboto in settings)
-- OxygenOS 12-15
-- RealmeUI
-- Flyme (may have bugs)
-- MIUI14
-- HyperOS 1/2.0 (may have bugs,need emptyfont module)
+
+> > MFGA Theoretical Compatibility:
 
 
- ***⚠Please use the latest version of the manager⚠***
 
->>
--[ Global debut (1)] Full coverage of English and numbers in the Play Store
--[Unique feature] Full coverage of WeChat public account articles and their contents
--Huge font library, covering some rare new characters (Mom no longer has to worry about my phone not seeing any symbols~)
--[Most efficient] Starting from MFGA version 15.5.1, Unicode16 full coverage is equivalent to any symbol as long as it is officially recognized！！！
-#⚠ If the Play Store does not take effect, please click Execute (action.sh) in the manager and wait for the text to run. No need to restart.
-Recent version update log:
 
-1. Update all fonts to the latest version
-2. Fix Google  The problem that the Play Store still cannot cover
-3. Fix the problem that service.sh does not exist in the path
-4. Delete the private area ⿰又昔 in PlangothicP1 and change it to ⿰高考加油E020)()
-5. Add private area U+E021-U+E023()
-6. Add U+F0000(󰀀) for the expansion of private area A
--9.15 Supplementary log
-1. Optimize the font size and font of 󰀀
-2. Optimize other symbols
--9.20 Supplementary log
-1. Add full-color characters, double coverage of Braille and private supplementary area A Xiaomi Apple Orange logo
-U+2800-U+28FF=U+FF000-U+FF0FF U+F8FF U+EEEE U+EEEF U+F8FF  U+E005
-(Xiaomi), (Xiaomi MIUI), (Apple), ⠨(magisk), 󿁝(OnePlus), etc.
--11.3 Supplementary log
-1. [Global debut (2)] Added action.sh shortcut execution
-(Move the content of the command to enable the global font of the Play Store in service.sh to action.sh, which can be executed directly in the manager instead of searching in the folder (15))
-2. Optimize some module codes
-3. Update PlangothicP1-Regular.fallback and Plangothi again  cP2 to the latest version
-15.1.4.11-3-RC2 (15141103)
-1. Send notification when the module is activated
-2. Completely integrate the killgmsfont module, you can uninstall it
-3. Optimize the action.sh shielding code
-4. Write a simple UI opening interface for the manager to open the action
-15.1.7.11-4-RC6 (15171104)
-1. Limit the minimum magisk version to 28.0 (28000)
-15.1.8.11-4-RC7 (15181104)
-1. Optimize action.  sh solves the problem that some people cannot use it, adds more detection (folder existence detection, PM detection to ensure safety)
-2. Add more text instructions for the manager to open the action
-3. No longer delete data/fonts, but delete data/fonts/*
-4. The folder will no longer be automatically deleted when the first flash is entered, and it will only be deleted when the manager manually executes action.sh
-Starting from this version, you need to manually restart the manager after executing action.sh, otherwise it will freeze
-15.2.0.11-7-RC9(15201107)
-1. Delete invalid fonts
-2. Delete invalid commands  Order
-15.2.1.11-10-RC10 (15211110)
-1. Try to solve the problem that A15 and Pengpai 2.0 cannot be used and the fonts are not fully displayed
-15.3.0.11-22-alpha (1153011221)
-1. NotoSans minority language symbols are updated (2022→2024/2023) to improve coverage
-2. BraillePatterns+SPUA is updated to the latest version
-3. Modify an error in font.xml
-4. [Global debut (3)] Support Unicode16 Kirat Rai language
-U+16D40-U+16D79(U+16D7F)
-𖵀𖵁𖵂𖵃𖵄𖵅𖵆𖵇𖵈𖵉𖵊𖵋𖵌𖵍𖵎𖵏𖵐𖵑𖵒𖵓𖵕𖵔𖵜𖵞𖵖𖵗𖵝𖵢𖵫𖵪
-etc.
-15.3.1.11-23-beta(153111232)
-1. Fixed the possible missing of 4 Devanagari Unicode characters
-2. U+0953( ॓),U+0954( ॔),U+0971(ॱ),U+0978( ॸ)
-3. Added English translation
-4. [Global debut (4)]Support Unicode16 Gurung khema language
-U+16100-U+16139(U+1613F)
-𖄀𖄁𖄂𖄃𖄄𖄅𖄆𖄇𖄈𖄉𖄊𖄓𖄋𖄌𖄔𖄍𖄕𖄎𖄖𖄏𖄗
-etc.
-⚠Warning⚠
-Gurung khema was made by myself with fontcreator based on the picture, which may not meet the official specifications (there is too little relevant information)
-15.3.2.11-30(15321130)
-1. Fixed the issue that the password input page still uses the default font when restarting on OnePlus devices(Please enable Roboto in settings)
-2. Fixed the issue that the font of the ColorOS15 note application cannot be overwritten due to calling sysfont(Please enable Roboto in settings)
-15.3.3.11-30-AI(15331130)
-1. Use ChatGPT to update and remove the Arabic numerals and English uppercase and lowercase letters that come with supplementary fonts (Noto, a total of 22 ttf/otf)
-15.3.4.12-02-AI(15341202)
-1. Use ChatGPT to complete most of the Unicode16.0 traditional computer Symbols Supplement  (there are still 70 characters that cannot be overwritten, I tried my best)
-𜰀𜰁𜰂𜰃𜰄𜰅𜰆𜰇𜰈𜰉𜰊𜰋𜰌𜰍𜰎𜰐𜰑𜰒𜰓𜰔𜰕𜰖𜰤𜰣𜰤𜰥𜴣𜴥𜴽𜵍𜵎𜵆𜰏
-2. Use ChatGPT to remove Kanchenjunga-Regular Arabic numerals and English uppercase and lowercase letters that come with ttf
-15.3.5/6.12-03-AI(1535/61203)
-This is beta version and not published
-15.3.6.12-06-RC1(1536120601)
-1. Urgently fix a large number of Unicode7.0-13.0 emoji missing
-2. Added Symbola-13.otf and NotoSansSymbols2-Regular.ttf to cover more emojis (Unicode 7-16)
-3. Fixed the problem caused by PlangothicP2-Regular.ttf that spaces U+2000-U+200A will be displayed no matter where (such as YouTube likes)
-15.3.6.12-06-RC2(1536120602)
-1. Fix Tibetan display
-2. Repair of missing symbols in Tibetan (U+0F8C-U+0F8F、U+0FCE, U+0FD0-U+0FDA) A total of 16 symbols
-15.3.7.12-06-RC3(1537120603)
-1. Complete the new characters in Unicode16 in Supplemental Arrows-C (except U+1F8B2,U+1F8C0,please wait for subsequent updates)
-🢴🢵🢶🢷🢸🢹🢺🢻
-2. Complete the new characters in Unicode16 in Symbols for Legacy Computing (except U+1FBCB, U+1FBCD,please wait for subsequent updates)
-🯌🯎🯏🯐🯑🯒🯓🯔🯕🯖🯗🯘🯙🯚🯛🯜🯝🯞🯟🯠🯢🯡🯣🯤🯥🯦🯧🯨🯩🯪🯫🯬🯭🯮🯯
-3. Fix due to fonts.LinearA partition caused by xml writing error (NotoSansLinearA-Regular.otf) The problem that all Unicode can't see
-15.4.0.12-08-EE(1540120801)
-1. Update Unknown symbol supplementRegular to 32.2.1
-2. Adjust the priority of Unknown symbol supplementRegular and Symbolola-13
-3. Added font_fallback.xml to solve the adaptation issues of A15 native and some C15 devices (fonts_fallback.xml will not be deleted)
-4. Delete the custom function to solve the problem of incorrect glyph characters in the root state, which does not support Unicode16 characters to display errors and swallow characters on some pages.
-15.4.1.12-08(1541120807)
-1. [Global debut (5)] Support for Ol Onal of Unicode16
-U+1E5D0-U+1E5FF
-𞗐𞗑𞗒𞗓𞗔𞗕𞗖𞗟𞗗𞗘𞗙𞗚𞗛𞗜𞗝𞗞𞗦𞗥𞗤𞗣𞗢𞗡𞗠𞗨𞗱𞗺𞗹𞗸𞗴𞗵𞗶𞗷
-15.4.2.12-09(1541120900)
-1. Resolve a potential error
-15.5.0.12-10-OpenType(1550121001)
-1. Reconstruct the bottom layer again and replace all the English numerals and basic symbols of the original Roboto
-2. Enable the OpenType ligature feature again@帆陌枫(maplemono)
-[INFO][FIXME][DEBUG][ERROR][FATAL][WARN][TODO]
-3. Completely delete U+2000-U+200A from PlangothicP2-Regular
-15.5.1.12-13-OpenType(1551121301)
-1. Optimize the Gurung khema of Unicode16 and comply with the specification
-U+16100-U+16139(U+1613F)
-𖄀𖄁𖄂𖄃𖄄𖄅𖄆𖄇𖄈𖄉𖄊𖄓𖄋𖄌𖄔𖄍𖄕𖄎𖄖𖄏𖄗
-2. [Global debut (6)]Unicode16 full coverage includes but is not limited to
-Symbols for Legacy Computing Supplement
-𜲒𜲓𜲔𜲕𜲖𜷾𜷿𜷽
-Symbols for Legacy Computing
-🯋🯍
-Egyptian Hieroglyphs Extended-A
-𓑠𓑢𓑡𓒃𓒋𓑵𓑵𓒎𓒖𓒤𓒜𓒣𓒫𓔅𓔌𓔃𓔂𓕍𓕔𓕛𓕣𓕦𓖤𓖳𓖽𓖾𓗆𓖞𓟣𓟳𓟊𓟅𓝹𓝩𓛱𓛺𓜋𓚢𓚤𓚡𓖡𓩓𓩒𓩞𓪥𓪯𓬻𓰕𓰓𓰟𓹄𓸄
-Kannada
-೜
-Balinese
-᭎᭏᭿
-Garay
-𐵀𐵁𐵂𐵓𐵛𐵚𐵪𐵫𐵻𐵤𐵍𐵕𐵣𐵴𐵽𐶄𐵻𐵍𐵆𐵇𐵏𐵔𐵣𐵫𐵼
-Tulu-Tigalari
-𑎀𑎁𑎂𑎃𑎄𑎅𑎆𑎇𑎎𑎖𑎜𑎤𑎚𑎳𑎻𑎲𑎡𑎣𑏌𑏍𑏎
-Myanmar Extended-C
-𑛑𑛒𑛓𑛔𑛕𑛖𑛗𑛘𑛙𑛚𑛛𑛜𑛝𑛞𑛟𑛠𑛡𑛢𑛣
-Sunuwar
-𑯀𑯂𑯂𑯋𑯌𑯒𑯑𑯙𑯔𑯍𑯛𑯕𑯴𑯰𑯱𑯹𑯷𑯶𑯸𑯟𑯡
-Supplementary Arrows-C
-🣀🣁
-Arabic Extended-C
-𐻂𐻃𐻄𐻼
-And so on, a total of 5187 new characters,Here is just an example
-15.5.2.12-13(1552121302)
-1. Optimize module size
-2. Delete and redefine PlangothicP3
-15.5.3.12-15(1553121501)
-1. Update Roboto to V7.0 Beta32
-```
-Roboto upstream update log:
-a.Correct prebuild nerd font glyphset and post.isFixedPitch: 0 -> 1 
-b.Add ignore for list pattern matching in Erlang
-c.Fix cv31, cv33, cv35 combos not working in italic style 
-d.Add missing ℃, ℉ 
-e.More identity info
-```
-2. Delete U+1F17F, U+1F17E, U+1F171, and U+1F170 in Noto Color Emoji because the colors are inconsistent with U+1F172-U+1F18D (show the corresponding symbols in Symbola-13.otf instead)
-3. Delete invalid font Noto Color Emoji-flag
-15.5.5.12-19(1555121902)
-1. Delete U+24C2 in Noto Color Emoji
-2. Optimize action.sh execution logic and add click to exit
-3. Completely solve the problem.The manager stuck after sh execution
-15.5.6.12-27-AI(1556122701)
-1. Update PlangothicP1 and PlangothicP2 to the latest versions and use ChatGPT to complete some patches mentioned in the previous update
-2. Update Iosevka Medium to 32.3.0
-15.6.0.01-02(1560010201)
-1. Update Iosevka Medium to 32.3.1
-2. Update Roboto to V7.0 Beta33
-```
-Roboto upstream update log:
-a. Fix visual alignment of w / Δ
-b. Optimize α / Ω / ω / Ћ
-c. Optimize italics đ / ŋ / þ / ә / τ / ι / γ
-d. Optimize sub/sup numbers
-e. Ensure all glyphs are vertically aligned
-3. Change module ID, it will be automatically uninstalled
-```
+
+Most AOSP-based ROMs (A15 support is uncertain but adapted).
+
+Most pseudo-AOSP ROMs.
+
+ColorOS 13-15 (enable Roboto in settings).
+
+OxygenOS 12-15.
+
+RealmeUI.
+
+*Flyme (may have bugs).
+
+MIUI 14 (may require an empty font module).
+
+PengpaiOS 1/2.0 (may have bugs and require an empty font module).
+
+
+⚠ Please use the latest version of the manager ⚠
+
+> > 
+
+
+
+[Worldwide Release (1)] Full English and numeric coverage in the Play Store.
+
+[Unique Features] Full coverage of WeChat articles and internal characters.
+
+Huge font library covering rare new symbols (never worry about invisible characters on your phone again~).
+
+
+
+⚠ If the Play Store effect is not active, click Execute (action.sh) in the manager, wait for the text to finish, and no reboot is required.
+
+[Most Efficient] From MFGA v15.5.1 onwards, Unicode 16 is fully covered. Essentially, any officially recognized symbols are supported!
+
+
+
+---
+
+Recent Update Logs:
+
+9.15:
+
+Optimized font sizes and styles.
+
+Enhanced other symbols.
+
+
+9.20:
+
+Added full-color characters with dual coverage for Braille and Supplemental Private Use Area-A.
+
+Examples:
+U+2800–U+28FF = U+FF000–U+FF0FF, U+F8FF, U+EEEE, U+EEEF, U+F8FF, U+E005.
+
+ (Xiaomi),  (MIUI),  (Apple), ⠨ (Magisk), 󿁝 (OnePlus), etc.
+
+
+
+11.3:
+
+[Worldwide Release (2)] Added action.sh shortcut execution:
+
+Moved the command for enabling global Play Store font from service.sh to action.sh for direct execution in the manager.
+
+Optimized some module codes.
+
+Updated PlangothicP1-Regular.fallback and PlangothicP2 to the latest versions.
+
+
+
+15.1.8:
+
+Solved execution issues for some users by adding folder and PM detection for safety.
+
+Improved explanation texts for action.sh.
+
+
+15.3.1:
+
+Fixed 4 missing Devanagari Unicode symbols:
+
+U+0953 ( ॓), U+0954 ( ॔), U+0971 ( ॱ), U+0978 ( ॸ).
+
+[Worldwide Release (4)] Support for Unicode 16 Gurung Khema Script:
+
+U+16100–U+16139 (U+1613F).
+
+
+15.4.1:
+
+[Worldwide Release (5)] Support for Unicode 16 Ol Onal Script:
+
+U+1E5D0–U+1E5FF.
+
+
+15.5.1:
+
+Enhanced Unicode 16 Gurung Khema Script to meet official standards:
+
+U+16100–U+16139 (U+1613F).
+
+[Worldwide Release (6)] Full Unicode 16 coverage, including:
+
+Symbols for Legacy Computing Supplement:
+
+𜲒 𜲓 𜲔 𜲕 𜲖 𜷾 𜷿 𜷽
+
+Egyptian Hieroglyphs Extended-A:
+
+𓑠 𓑡 𓒋 𓔂, etc.
+
+
+
+15.6.0:
+
+Updated Iosevka Medium to v32.3.1.
+
+Updated Roboto to V7.0 Beta33:
+
+a. Fixed w/Δ alignment.
+b. Optimized α/Ω/ω/Ћ.
+c. Improved italic styles.
+d. Aligned all glyphs vertically.
+
+
