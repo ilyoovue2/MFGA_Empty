@@ -13,7 +13,7 @@ EN
 - 2.KernelSU strictly limits installation above 11989
 - 3.More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
 ```
-LANGUAGE=$(getprop persist.sys.locale | cut -d'-' 
+LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
 ```
 
 Telegram channel:
