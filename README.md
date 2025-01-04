@@ -244,8 +244,11 @@ e.确保所有字形垂直对齐
 ```
 - 3.更换模块ID,会自动卸载旧模块
  
-15.6.1.01-02(1561010203)
+ 15.6.1.01-02(1561010203)
 - 1.新增更新渠道 可直接在管理器更新
+ 
+ 15.6.2.01-04(1562010401)
+- 1.优化模块安装检测,给予部分提示
 -----------------------------------------------
 
 
@@ -494,3 +497,6 @@ e. Ensure all glyphs are vertically aligned
  
 15.6.1.01-02(1561010203)
 - 1.Adding a new update channel, you can update directly in the manager
+ 
+15.6.2.01-04(1562010401)
+- 1.Optimize the installation and detection of the module, and give some tips
