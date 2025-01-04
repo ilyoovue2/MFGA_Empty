@@ -247,8 +247,13 @@ e.确保所有字形垂直对齐
  15.6.1.01-02(1561010203)
 - 1.新增更新渠道 可直接在管理器更新
  
- 15.6.2.01-04(1562010401)
+ 15.6.3.01-04-RC1(1563010402)
 - 1.优化模块安装检测,给予部分提示
+- 2.KernelSU严格限制11989以上安装
+- 3.更全面的中英双语翻译 获取当前系统语言 并发送对应语言的指令 覆盖action.sh、customize.sh、service.sh
+```
+LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
+```
 -----------------------------------------------
 
 
@@ -500,3 +505,11 @@ e. Ensure all glyphs are vertically aligned
  
 15.6.2.01-04(1562010401)
 - 1.Optimize the installation and detection of the module, and give some tips
+ 
+15.6.3.01-04-RC1(1563010402)
+- 1.Optimize module installation detection and give some prompts
+- 2.KernelSU strictly limits installation above 11989
+- 3.More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
+```
+LANGUAGE=$(getprop persist.sys.locale | cut -d'-' 
+```
