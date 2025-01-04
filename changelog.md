@@ -7,6 +7,9 @@ EN
 - 1.Optimize the installation and detection of the module, and give some tips
 
 Telegram channel:
+
 https://t.me/taichi91
+
 Power by:
+
 Yiyunlengyu(酷安@Aq1298)
