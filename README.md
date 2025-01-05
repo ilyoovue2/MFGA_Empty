@@ -2,10 +2,15 @@ CN
 
 
 # Power by 咿云冷雨
-
-##⚠本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11985/1.0.2+刷入！！！
+> [!CAUTION]
+> 
+>本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11985/1.0.2+刷入！！！
  
->>[注意!执行action.sh指的是点击管理器里面的执行(magisk为“操作”,apatch为“Action”)按钮,执行则覆盖全局Google GMS英文]
+> [!IMPORTANT]
+>
+>注意!执行action.sh指的是点击管理器里面的执行(magisk为“操作”,apatch为“Action”)按钮,执行则覆盖全局Google GMS英文
+ 
+ [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/taichi91) 
  
 >>[管理器就是kernelSU或apatch或magisk(alpha)]
  
@@ -260,17 +265,21 @@ LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
 EN
 
 # Power by YiyunLengyu
-
-##⚠This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, kernelSU 11985/1.0.2+ to be flashed! ! ! 
->>[Note! Executing action.sh means clicking the execute (operation) button in the manager]
->>[The manager is kernelSU or apatch or magisk (alpha)]
->>[If the settings interface cannot be opened by Google or the Play store cannot be opened, please enable the (magisk)hide/uninstall module(ksu)² for the all play service](This is a problem with the "play integrity fix" module「pif」)
-
+> [!CAUTION]
+>
+>This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, kernelSU 11985/1.0.2+ to be flashed! ! ! 
+ 
+> [!IMPORTANT]
+> 
+>[Note! Executing action.sh means clicking the execute (operation) button in the manager]
+>[The manager is kernelSU or apatch or magisk (alpha)]
+>[If the settings interface cannot be opened by Google or the Play store cannot be opened, please enable the (magisk)hide/uninstall module(ksu)² for the all play service](This is a problem with the "play integrity fix" module「pif」)
+ 
+ [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/taichi91) 
+ 
 >>[Support framework KernelSU, apatch "Please turn off the default uninstall module(ksu)²", magisk]
  
  ❗¹ and ² do not conflict, read carefully!!!❗
- 
-❄Telegram Group: @taichi91❄
  
 >>Tsukushi A-circle global font module, theoretical adaptation
 - All major categories of native (A15 is not sure whether it supports it, but it has been adapted)
@@ -507,9 +516,9 @@ e. Ensure all glyphs are vertically aligned
 - 1.Optimize the installation and detection of the module, and give some tips
  
 15.6.3.01-04-RC1(1563010402)
-- 1.Optimize module installation detection and give some prompts
-- 2.KernelSU strictly limits installation above 11989
-- 3.More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
+- 1. Optimize module installation detection and give some prompts
+- 2. KernelSU strictly limits installation above 11989
+- 3. More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
 ```
 LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
 ```
