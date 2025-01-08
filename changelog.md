@@ -1,27 +1,17 @@
 CN
-15.6.4.01-07-RC2(1564010701)
-- 1.更新Roboto到V7.0 Beta34
+15.6.5.01-08-RC3(1565010803)
+- 1.[全球首发(7)]领先支持Unicode17.0草稿中的MISCELLANEOUS SYMBOLS SUPPLEMENT分区
+战神星、命神星、灵神星、凯神星、海妖星、颖神星、花神星、虹神星、韶神星等
 ```
-Roboto上游更新日志:
-a.锐化过弯
-b.优化符号 λ
-c.将纯文本标记设置为斜体
-d.在>=？上添加忽略，用于复述
-e.改进货币符号
-f.改进小号和二号符号
+𜻀𜻁𜻂𜻃𜻄𜻅𜻆𜻇𜻈𜻉𜻊𜻋𜻌𜻍𜻎𜻏𜻐𜻠𜻡𜻢𜻣𜻤𜻥𜻦𜻧𜻨𜻩𜻪𜻫𜻬𜻭𜻮𜻯𜻰
 ```
 -------
 EN
-15.6.4.01-07-RC2(1564010701)
-- 1.Update Roboto to V7.0 Beta34
+15.6.5.01-08-RC3(1565010803)
+- 1.[Global Debut (7)] Leading support for the MISCELLANEOUS SYMBOLS SUPPLEMENT partition in the Unicode 17.0 draft
+PARTHENOPE,HEBE,EGERIA,FLORA,THETIS,AMPHITRITE,METIS,IRENE,MELPOMENE,etc.
 ```
-Roboto upstream update log:
-a.sharpen crossing corners
-b.optimize λ
-c.make plain text tag italic in italic style
-d.add ignore on >=? for rescript
-e.improve currency symbols
-f.improve miniute and second symbol
+𜻀𜻁𜻂𜻃𜻄𜻅𜻆𜻇𜻈𜻉𜻊𜻋𜻌𜻍𜻎𜻏𜻐𜻠𜻡𜻢𜻣𜻤𜻥𜻦𜻧𜻨𜻩𜻪𜻫𜻬𜻭
 ```
 
 Telegram channel:
