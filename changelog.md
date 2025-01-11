@@ -1,28 +1,26 @@
 CN
-15.6.6.01-08-RC5(1566010805)
-- 1.[全球首发(7)]领先支持Unicode17.0草稿中的MISCELLANEOUS SYMBOLS SUPPLEMENT分区(U+1CEC0..U+1CEFF)全部符号
-战神星、命神星、灵神星、凯神星、海妖星、颖神星、花神星、虹神星、韶神星等
+15.6.7.01-11-RC6(1567011106)
+- 1.[全球首发(9)]领先支持Unicode17.0草稿中的MiscelLaneous Symbols and Arrows分区(U+2B96)
 ```
-𜻀𜻁𜻂𜻃𜻄𜻅𜻆𜻇𜻈𜻉𜻊𜻋𜻌𜻍𜻎𜻏𜻐𜻠𜻡𜻢𜻣𜻤𜻥𜻦𜻧𜻨𜻩𜻪𜻫𜻬𜻭𜻮𜻯𜻰
+⮖
 ```
-- 2.[全球首发(8)]领先支持Unicode17.0草稿中的Beria Erfe分区(U+16EA0..U+16EDF)
-共50个符号
+- 2.[全球首发(10)]领先支持Unicode17.0草稿中的Tolong Siki分区(U+11DB0..U+11DEF)
 ```
-𖺠𖺡𖺢𖺣𖺤𖺥𖺦𖺧𖺨𖺩𖺪𖺫𖺬𖺭𖺮𖺯𖺰𖺱𖺲𖺳𖺴𖺵𖺶𖺷𖺸𖺻𖺼𖺽𖺾𖺿
+𑶰𑶱𑶲𑶳𑶴𑶵𑶶𑶷𑶸𑶹𑶺𑶻𑶼𑶽𑶾𑶿𑷀𑷁𑷂𑷃𑷄𑷅𑷆𑷇𑷈𑷉𑷊𑷋𑷌𑷍𑷎𑷏𑷐𑷑𑷒𑷓𑷔𑷕𑷖𑷗𑷘𑷙𑷚𑷛𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩
 ```
+- 3.降低kernelSU限制版本为11986
 -------
 EN
-15.6.6.01-08-RC5(1566010805)
-- 1.[Global Debut (7)] Leading support for the MISCELLANEOUS SYMBOLS SUPPLEMENT partition in the Unicode 17.0 draft(U+1CEC0..U+1CEFF)
-PARTHENOPE,HEBE,EGERIA,FLORA,THETIS,AMPHITRITE,METIS,IRENE,MELPOMENE,etc.
+15.6.7.01-11-RC6(1567011106)
+- 1. [World Debut (9)] Leading support for MiscelLaneous Symbols and Arrows partition (U+2B96) in the Unicode 17.0 draft
 ```
-𜻀𜻁𜻂𜻃𜻄𜻅𜻆𜻇𜻈𜻉𜻊𜻋𜻌𜻍𜻎𜻏𜻐𜻠𜻡𜻢𜻣𜻤𜻥𜻦𜻧𜻨𜻩𜻪𜻫𜻬𜻭
+⮖
 ```
-- 2.[World Debut (8)] Leading support for the Beria Erfe zone (U+16EA0..U+16EDF) in the Unicode 17.0 draft
-A total of 50 symbols
+- 2. [World Debut (10)] Leading support for Tolong Siki partition (U+11DB0..U+11DEF) in the Unicode 17.0 draft
 ```
-𖺠𖺡𖺢𖺣𖺤𖺥𖺦𖺧𖺨𖺩𖺪𖺫𖺬𖺭𖺮𖺯𖺰𖺱𖺲𖺳𖺴𖺵𖺶𖺷𖺸𖺻𖺼𖺽𖺾𖺿
+𑶰𑶱𑶲𑶳𑶴𑶵𑶶𑶷𑶸𑶹𑶺𑶻𑶼𑶽𑶾𑶿𑷀𑷁𑷂𑷃𑷄𑷅𑷆𑷇𑷈𑷉𑷊𑷋𑷌𑷍𑷎𑷏𑷐𑷑𑷒𑷓𑷔𑷕𑷖𑷗𑷘𑷙𑷚𑷛𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩
 ```
+- 3. Reduce kernelSU limit version to 11986
 
 Telegram channel:
 
