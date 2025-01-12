@@ -1,26 +1,26 @@
 CN
-15.6.7.01-11-RC6(1567011106)
-- 1.[全球首发(9)]领先支持Unicode17.0草稿中的MiscelLaneous Symbols and Arrows分区(U+2B96)
+15.6.8.01-12-RC7(1568011207)
+- 1.适配三星私用区的某些符号 比如定位符号
 ```
-⮖
+
 ```
-- 2.[全球首发(10)]领先支持Unicode17.0草稿中的Tolong Siki分区(U+11DB0..U+11DEF)
+- 2.新增一个TTF管理Private Use分区的自定义 (Private-UseTest.ttf)
+- 3.私用区符号U+F8FE升级为MFGA模块特有符号
 ```
-𑶰𑶱𑶲𑶳𑶴𑶵𑶶𑶷𑶸𑶹𑶺𑶻𑶼𑶽𑶾𑶿𑷀𑷁𑷂𑷃𑷄𑷅𑷆𑷇𑷈𑷉𑷊𑷋𑷌𑷍𑷎𑷏𑷐𑷑𑷒𑷓𑷔𑷕𑷖𑷗𑷘𑷙𑷚𑷛𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩
+
 ```
-- 3.降低kernelSU限制版本为11986
 -------
 EN
-15.6.7.01-11-RC6(1567011106)
-- 1. [World Debut (9)] Leading support for MiscelLaneous Symbols and Arrows partition (U+2B96) in the Unicode 17.0 draft
+15.6.8.01-12-RC7(1568011207)
+- 1. Adapt some symbols in Samsung private use area, such as positioning symbol
 ```
-⮖
+
 ```
-- 2. [World Debut (10)] Leading support for Tolong Siki partition (U+11DB0..U+11DEF) in the Unicode 17.0 draft
+- 2. Add a TTF to manage the customization of Private Use partition (Private-UseTest.ttf)
+- 3. The private area symbol U+F8FE is upgraded to the MFGA module-specific symbol
 ```
-𑶰𑶱𑶲𑶳𑶴𑶵𑶶𑶷𑶸𑶹𑶺𑶻𑶼𑶽𑶾𑶿𑷀𑷁𑷂𑷃𑷄𑷅𑷆𑷇𑷈𑷉𑷊𑷋𑷌𑷍𑷎𑷏𑷐𑷑𑷒𑷓𑷔𑷕𑷖𑷗𑷘𑷙𑷚𑷛𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩
+
 ```
-- 3. Reduce kernelSU limit version to 11986
 
 Telegram channel:
 
