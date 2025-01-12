@@ -30,6 +30,7 @@ CN
 -  *Flyme(可能存在bug)
 -  MIUI14(可能需要空字体模块)
 -  澎湃OS 1/2.0(可能存在bug,要空字体模块)
+-  三星
  
    ***⚠请使用最新版本的管理器⚠***
 
@@ -258,6 +259,48 @@ e.确保所有字形垂直对齐
 ```
 LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
 ```
+ 15.6.4.01-07-RC2(1564010701)
+- 1.更新Roboto到V7.0 Beta34
+```
+Roboto上游更新日志:
+a.锐化过弯
+b.优化符号 λ
+c.将纯文本标记设置为斜体
+d.在>=？上添加忽略，用于复述
+e.改进货币符号
+f.改进小号和二号符号
+```
+ 15.6.6.01-08-RC5(1566010805)
+- 1.[全球首发(7)]领先支持Unicode17.0草稿中的MISCELLANEOUS SYMBOLS SUPPLEMENT分区(U+1CEC0..U+1CEFF)全部符号
+战神星、命神星、灵神星、凯神星、海妖星、颖神星、花神星、虹神星、韶神星等
+```
+𜻀𜻁𜻂𜻃𜻄𜻅𜻆𜻇𜻈𜻉𜻊𜻋𜻌𜻍𜻎𜻏𜻐𜻠𜻡𜻢𜻣𜻤𜻥𜻦𜻧𜻨𜻩𜻪𜻫𜻬𜻭𜻮𜻯𜻰
+```
+- 2.[全球首发(8)]领先支持Unicode17.0草稿中的Beria Erfe分区(U+16EA0..U+16EDF)
+共50个符号
+```
+𖺠𖺡𖺢𖺣𖺤𖺥𖺦𖺧𖺨𖺩𖺪𖺫𖺬𖺭𖺮𖺯𖺰𖺱𖺲𖺳𖺴𖺵𖺶𖺷𖺸𖺻𖺼𖺽𖺾𖺿
+```
+ 15.6.7.01-11-RC6(1567011106)
+- 1.[全球首发(9)]领先支持Unicode17.0草稿中的MiscelLaneous Symbols and Arrows分区(U+2B96)
+```
+⮖
+```
+- 2.[全球首发(10)]领先支持Unicode17.0草稿中的Tolong Siki分区(U+11DB0..U+11DEF)
+```
+𑶰𑶱𑶲𑶳𑶴𑶵𑶶𑶷𑶸𑶹𑶺𑶻𑶼𑶽𑶾𑶿𑷀𑷁𑷂𑷃𑷄𑷅𑷆𑷇𑷈𑷉𑷊𑷋𑷌𑷍𑷎𑷏𑷐𑷑𑷒𑷓𑷔𑷕𑷖𑷗𑷘𑷙𑷚𑷛𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩
+```
+- 3.降低kernelSU限制版本为11986
+ 15.6.8.01-12-RC7(1568011207)
+- 1.适配三星私用区的某些符号 比如定位符号
+```
+
+```
+- 2.新增一个TTF管理Private Use分区的自定义 (Private-UseTest.ttf)
+- 3.私用区符号U+F8FE升级为MFGA模块特有符号
+```
+
+```
 -----------------------------------------------
 
 
@@ -289,12 +332,13 @@ EN
 - *Flyme (may have bugs)
 - MIUI14
 - HyperOS 1/2.0 (may have bugs,need emptyfont module)
+- Samsung
 
 
  ***⚠Please use the latest version of the manager⚠***
 
 >>
--[ Global debut (1)] Full coverage of English and numbers in the Play Store
+-[ Global Debut (1)] Full coverage of English and numbers in the Play Store
 -[Unique feature] Full coverage of WeChat public account articles and their contents
 -Huge font library, covering some rare new characters (Mom no longer has to worry about my phone not seeing any symbols~)
 -[Most efficient] Starting from MFGA version 15.5.1, Unicode16 full coverage is equivalent to any symbol as long as it is officially recognized！！！
@@ -326,7 +370,7 @@ U+2800-U+28FF=U+FF000-U+FF0FF U+F8FF U+EEEE U+EEEF U+F8FF  U+E005
 ```
  
 11.3 Supplementary log
-- 1.[Global debut (2)] Added action.sh shortcut execution
+- 1.[Global Debut (2)] Added action.sh shortcut execution
 - (Move the content of the command to enable the global font of the Play Store in service.sh to action.sh, which can be executed directly in the manager instead of searching in the folder (15))
 - 2.Optimize some module codes
 - 3.Update PlangothicP1-Regular.fallback and Plangothi again  cP2 to the latest version
@@ -358,7 +402,7 @@ U+2800-U+28FF=U+FF000-U+FF0FF U+F8FF U+EEEE U+EEEF U+F8FF  U+E005
 - 1.NotoSans minority language symbols are updated (2022→2024/2023) to improve coverage
 - 2.BraillePatterns+SPUA is updated to the latest version
 - 3.Modify an error in font.xml
-- 4.[Global debut (3)] Support Unicode16 Kirat Rai language
+- 4.[Global Debut (3)] Support Unicode16 Kirat Rai language
 ```
 U+16D40-U+16D79(U+16D7F)
 𖵀𖵁𖵂𖵃𖵄𖵅𖵆𖵇𖵈𖵉𖵊𖵋𖵌𖵍𖵎𖵏𖵐𖵑𖵒𖵓𖵕𖵔𖵜𖵞𖵖𖵗𖵝𖵢𖵫𖵪
@@ -367,7 +411,7 @@ U+16D40-U+16D79(U+16D7F)
 - 1.Fixed the possible missing of 4 Devanagari Unicode characters
 - 2.U+0953( ॓),U+0954( ॔),U+0971(ॱ),U+0978( ॸ)
 - 3.Added English translation
-- 4.[Global debut (4)]Support Unicode16 Gurung khema language
+- 4.[Global Debut (4)]Support Unicode16 Gurung khema language
 ```
 U+16100-U+16139(U+1613F)
 𖄀𖄁𖄂𖄃𖄄𖄅𖄆𖄇𖄈𖄉𖄊𖄓𖄋𖄌𖄔𖄍𖄕𖄎𖄖𖄏𖄗
@@ -420,7 +464,7 @@ Gurung khema was made by myself with fontcreator based on the picture, which may
 - 4.Delete the custom function to solve the problem of incorrect glyph characters in the root state, which does not support Unicode16 characters to display errors and swallow characters on some pages.
  
 15.4.1.12-08(1541120807)
-- 1.[Global debut (5)] Support for Ol Onal of Unicode16
+- 1.[Global Debut (5)] Support for Ol Onal of Unicode16
 ```
 U+1E5D0-U+1E5FF
 𞗐𞗑𞗒𞗓𞗔𞗕𞗖𞗟𞗗𞗘𞗙𞗚𞗛𞗜𞗝𞗞𞗦𞗥𞗤𞗣𞗢𞗡𞗠𞗨𞗱𞗺𞗹𞗸𞗴𞗵𞗶𞗷
@@ -442,7 +486,7 @@ U+1E5D0-U+1E5FF
 U+16100-U+16139(U+1613F)
 𖄀𖄁𖄂𖄃𖄄𖄅𖄆𖄇𖄈𖄉𖄊𖄓𖄋𖄌𖄔𖄍𖄕𖄎𖄖𖄏𖄗
 ```
-- 2.[Global debut (6)]Unicode16 full coverage includes but is not limited to
+- 2.[Global Debut (6)]Unicode16 full coverage includes but is not limited to
 ```
 Symbols for Legacy Computing Supplement
 𜲒𜲓𜲔𜲕𜲖𜷾𜷿𜷽
@@ -500,11 +544,11 @@ e.More identity info
 - 2.Update Roboto to V7.0 Beta33
 ```
 Roboto upstream update log:
-a. Fix visual alignment of w / Δ
-b. Optimize α / Ω / ω / Ћ
-c. Optimize italics đ / ŋ / þ / ә / τ / ι / γ
-d. Optimize sub/sup numbers
-e. Ensure all glyphs are vertically aligned
+a.Fix visual alignment of w / Δ
+b.Optimize α / Ω / ω / Ћ
+c.Optimize italics đ / ŋ / þ / ә / τ / ι / γ
+d.Optimize sub/sup numbers
+e.Ensure all glyphs are vertically aligned
 ```
 - 3.Change module ID, it will be automatically uninstalled
  
@@ -520,4 +564,47 @@ e. Ensure all glyphs are vertically aligned
 - 3. More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
 ```
 LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
+```
+15.6.4.01-07-RC2(1564010701)
+- 1.Update Roboto to V7.0 Beta34
+```
+Roboto upstream update log:
+a.sharpen crossing corners
+b.optimize λ
+c.make plain text tag italic in italic style
+d.add ignore on >=? for rescript
+e.improve currency symbols
+f.improve miniute and second symbol
+```
+15.6.6.01-08-RC5(1566010805)
+- 1.[Global Debut (7)] Leading support for the MISCELLANEOUS SYMBOLS SUPPLEMENT partition in the Unicode 17.0 draft(U+1CEC0..U+1CEFF)
+PARTHENOPE,HEBE,EGERIA,FLORA,THETIS,AMPHITRITE,METIS,IRENE,MELPOMENE,etc.
+```
+𜻀𜻁𜻂𜻃𜻄𜻅𜻆𜻇𜻈𜻉𜻊𜻋𜻌𜻍𜻎𜻏𜻐𜻠𜻡𜻢𜻣𜻤𜻥𜻦𜻧𜻨𜻩𜻪𜻫𜻬𜻭
+```
+- 2.[World Debut (8)] Leading support for the Beria Erfe zone (U+16EA0..U+16EDF) in the Unicode 17.0 draft
+A total of 50 symbols
+```
+𖺠𖺡𖺢𖺣𖺤𖺥𖺦𖺧𖺨𖺩𖺪𖺫𖺬𖺭𖺮𖺯𖺰𖺱𖺲𖺳𖺴𖺵𖺶𖺷𖺸𖺻𖺼𖺽𖺾𖺿
+```
+15.6.7.01-11-RC6(1567011106)
+- 1.[World Debut (9)] Leading support for MiscelLaneous Symbols and Arrows partition (U+2B96) in the Unicode 17.0 draft
+```
+⮖
+```
+- 2.[World Debut (10)] Leading support for Tolong Siki partition (U+11DB0..U+11DEF) in the Unicode 17.0 draft
+```
+𑶰𑶱𑶲𑶳𑶴𑶵𑶶𑶷𑶸𑶹𑶺𑶻𑶼𑶽𑶾𑶿𑷀𑷁𑷂𑷃𑷄𑷅𑷆𑷇𑷈𑷉𑷊𑷋𑷌𑷍𑷎𑷏𑷐𑷑𑷒𑷓𑷔𑷕𑷖𑷗𑷘𑷙𑷚𑷛𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩
+```
+- 3.Reduce kernelSU limit version to 11986
+ 
+15.6.8.01-12-RC7(1568011207)
+- 1.Adapt some symbols in Samsung private use area, such as positioning symbol
+```
+
+```
+- 2.Add a TTF to manage the customization of Private Use partition (Private-UseTest.ttf)
+- 3.The private area symbol U+F8FE is upgraded to the MFGA module-specific symbol
+```
+
 ```
