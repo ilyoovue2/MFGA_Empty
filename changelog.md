@@ -12,12 +12,12 @@ CN
 -------
 EN
 15.6.8.01-12-RC7(1568011207)
-- 1. Adapt some symbols in Samsung private use area, such as positioning symbol
+- 1.Adapt some symbols in Samsung private use area, such as positioning symbol
 ```
 
 ```
-- 2. Add a TTF to manage the customization of Private Use partition (Private-UseTest.ttf)
-- 3. The private area symbol U+F8FE is upgraded to the MFGA module-specific symbol
+- 2.Add a TTF to manage the customization of Private Use partition (Private-UseTest.ttf)
+- 3.The private area symbol U+F8FE is upgraded to the MFGA module-specific symbol
 ```
 
 ```
