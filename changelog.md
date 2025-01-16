@@ -27,7 +27,7 @@ EN
 
 ```
 15.6.8.01-14-RC8(1568011408)
-- 1. Optimize U+2B96 in Unicode17.0 to make it consistent with the U+2BF9 font
+- 1.Optimize U+2B96 in Unicode17.0 to make it consistent with the U+2BF9 font
 ```
 ⯹(U+2B96)⮖(U+2BF9)
 ```
