@@ -9,6 +9,11 @@ CN
 ```
 
 ```
+15.6.8.01-14-RC8(1568011408)
+- 1.优化Unicode17.0中的U+2B96 使其和U+2BF9字型保持一致
+```
+⯹(U+2B96)⮖(U+2BF9)
+```
 -------
 EN
 15.6.8.01-12-RC7(1568011207)
@@ -20,6 +25,11 @@ EN
 - 3.The private area symbol U+F8FE is upgraded to the MFGA module-specific symbol
 ```
 
+```
+15.6.8.01-14-RC8(1568011408)
+- 1. Optimize U+2B96 in Unicode17.0 to make it consistent with the U+2BF9 font
+```
+⯹(U+2B96)⮖(U+2BF9)
 ```
 
 Telegram channel:
