@@ -3,7 +3,7 @@ CN
 
 # Power by 咿云冷雨
 > [!CAUTION]
-> 
+> 注意! 私用区符号在GitHub上不可见
 >本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11985/1.0.2+刷入！！！
  
 > [!IMPORTANT]
@@ -346,7 +346,7 @@ EN
 
 # Power by YiyunLengyu
 > [!CAUTION]
->
+>Note! Private section symbols are not visible on GitHub
 >This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, kernelSU 11985/1.0.2+ to be flashed! ! ! 
  
 > [!IMPORTANT]
