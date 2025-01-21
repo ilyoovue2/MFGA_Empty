@@ -16,7 +16,7 @@ A᫟A᫯A᫮A᫞A᫭A᫬A᫰
 15.7.0.01-21-RC10(1570012110)
  - 1.[全球首发(14)]领先支持Unicode17.0多个分区的补充符号共26个(U+209D...U+209F、U+1ADF、U+1AEF、U+1AEE、U+1ADE、U+1AED、U+1AEC、U+1AFO、U+1879、U+0984、U+0558、U+058C、U+058B、U+20C1、U+A7E2、U+AB6C、U+AB6D、U+107BB...U+107BE、U+1F1AE、U+1F7DA)
 ```
-₝₞₟᫟᫯᫮᫞᫭᫬᫰᡹঄՘֌֋𐞿⃁꟢꭬꭭𐞻𐞼𐞽𐞾🆮🟚
+₝₞₟᡹঄՘֌֋𐞿⃁꟢꭬꭭𐞻𐞼𐞽𐞾🆮🟚
 ```
 
 -------
@@ -39,7 +39,7 @@ A᫟A᫯A᫮A᫞A᫭A᫬A᫰
 15.7.0.01-21-RC10(1570012110)
 - 1.[World Debut (14)] First to support 26 supplementary symbols across multiple partitions of Unicode 17.0 (U+209D...U+209F, U+1ADF, U+1AEF, U+1AEE, U+1ADE, U+1AED, U+1AEC, U+1AFO, U+1879, U+0984, U+0558, U+058C, U+058B, U+20C1, U+A7E2, U+AB6C, U+AB6D, U+107BB...U+107BE, U+1F1AE, U+1F7DA)
 ```
-₝₞₟᫟᫯᫮᫞᫭᫬᫰᡹঄՘֌֋𐞿⃁꟢꭬꭭𐞻𐞼𐞽𐞾🆮🟚
+₝₞₟᡹঄՘֌֋𐞿⃁꟢꭬꭭𐞻𐞼𐞽𐞾🆮🟚
 ```
 
 Telegram channel:
