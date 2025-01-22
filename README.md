@@ -3,8 +3,8 @@ CN
 
 # Power by 咿云冷雨
 > [!CAUTION]
-> 注意! 私用区符号在GitHub上不可见
->本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11985/1.0.2+刷入！！！
+> 
+>本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11986/1.0.2+刷入！！！
  
 > [!IMPORTANT]
 >
@@ -320,7 +320,7 @@ f.改进小号和二号符号
 𝇫𝇬𝇭𝇮𝇯𝇰𝇱𝇲𝇳𝇴𝇵𝇶𝇷𝇸𝇹𝇺𝇻𝇼𝇽𝇾𝇿𝄧𝄨
 ```
  15.7.0.01-21-RC10(1570012110)
- - 1.[全球首发(14)]领先支持Unicode17.0多个分区的补充符号共26个(U+209D...U+209F、U+1ADF、U+1ADE、U+1AEC...U-1AEF、U+1AFO、U+1879、U+0984、U+0558、U+058C、U+058B、U+20C1、U+A7E2、U+AB6C、U+AB6D、U+107BB...U+107BE、U+1F1AE、U+1F7DA)
+ - 1.[全球首发(14)]领先支持Unicode17.0多个分区的补充符号共26个(U+209D...U+209F、U+1ADF、U+1ADE、U+1AEC...U-1AEF、U+1AF0、U+1879、U+0984、U+0558、U+058C、U+058B、U+20C1、U+A7E2、U+AB6C、U+AB6D、U+107BB...U+107BE、U+1F1AE、U+1F7DA)
 ```
 ₝₞₟᡹঄՘֌֋𐞿⃁꟢꭬꭭𐞻𐞼𐞽𐞾🆮🟚
 ```
@@ -331,6 +331,7 @@ f.改进小号和二号符号
 ```
 ꟱꟒꟔࢏৿꟏
 ```
+ 
 ```
 组合附加符号
 A᫟A᫯A᫮A᫞A᫭A᫬A᫰
@@ -346,8 +347,8 @@ EN
 
 # Power by YiyunLengyu
 > [!CAUTION]
->Note! Private section symbols are not visible on GitHub
->This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, kernelSU 11985/1.0.2+ to be flashed! ! ! 
+>
+>This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, kernelSU 11986/1.0.2+ to be flashed! ! ! 
  
 > [!IMPORTANT]
 > 
@@ -597,9 +598,9 @@ e.Ensure all glyphs are vertically aligned
 - 1.Optimize the installation and detection of the module, and give some tips
  
 15.6.3.01-04-RC1(1563010402)
-- 1. Optimize module installation detection and give some prompts
-- 2. KernelSU strictly limits installation above 11989
-- 3. More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
+- 1.Optimize module installation detection and give some prompts
+- 2.KernelSU strictly limits installation above 11989
+- 3.More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
 ```
 LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
 ```
@@ -665,7 +666,7 @@ A total of 50 symbols
 𝇫𝇬𝇭𝇮𝇯𝇰𝇱𝇲𝇳𝇴𝇵𝇶𝇷𝇸𝇹𝇺𝇻𝇼𝇽𝇾𝇿𝄧𝄨
 ```
 15.7.0.01-21-RC10(1570012110)
-- 1.[World Debut (14)] First to support 26 supplementary symbols across multiple partitions of Unicode 17.0 (U+209D...U+209F, U+1ADF, U+1AEF, U+1AEE, U+1ADE, U+1AED, U+1AEC, U+1AFO, U+1879, U+0984, U+0558, U+058C, U+058B, U+20C1, U+A7E2, U+AB6C, U+AB6D, U+107BB...U+107BE, U+1F1AE, U+1F7DA)
+- 1.[World Debut (14)] First to support 26 supplementary symbols across multiple partitions of Unicode 17.0 (U+209D...U+209F, U+1ADF, U+1AEF, U+1AEE, U+1ADE, U+1AED, U+1AEC, U+1AF0, U+1879, U+0984, U+0558, U+058C, U+058B, U+20C1, U+A7E2, U+AB6C, U+AB6D, U+107BB...U+107BE, U+1F1AE, U+1F7DA)
 ```
 ₝₞₟᡹঄՘֌֋𐞿⃁꟢꭬꭭𐞻𐞼𐞽𐞾🆮🟚
 ```
@@ -675,6 +676,7 @@ A total of 50 symbols
 ```
 ꟱꟒꟔࢏৿꟏
 ```
+ 
 ```
 Combining additional symbols:
 A᫟A᫯A᫮A᫞A᫭A᫬A᫰
