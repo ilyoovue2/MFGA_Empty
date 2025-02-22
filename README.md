@@ -1,3 +1,4 @@
+This is a GitHub project that keeps update logs and links. For details, please see updated.json
 CN
 
 
