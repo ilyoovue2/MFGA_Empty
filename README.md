@@ -2,9 +2,9 @@ This is a GitHub project that keeps update logs and links. For details, please s
 
 
 
-CN
 
 # Power by 咿云冷雨
+CN
 > [!CAUTION]
 > 
 >本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11986/1.0.2+刷入！！！
