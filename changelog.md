@@ -2,7 +2,7 @@ CN
 15.7.2.02-22-RC13(1572022213)
  - 1.新增SatisarSharada-Regular.ttf去支持Unicode17.0的新分区Sharada Supplement(11B60...11B7F)共8个符号,其中3个自制符号可能存在不规范的问题
 ```
-𑭠 𑭡 𑭢 𑭣 𑭤 𑭥
+𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
 ```
 
 15.7.2.02-16-RC12(1572021612)
@@ -23,7 +23,7 @@ EN
 15.7.2.02-22-RC13(1572022213)
 - 1.Added SatisarSharada-Regular.ttf to support the new partition Sharada Supplement (11B60...11B7F) of Unicode17.0, with a total of 8 symbols, of which 3 self-made symbols may have non-standard problems
 ```
-𑭠 𑭡 𑭢 𑭣 𑭤 𑭥
+𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
 ```
 
 15.7.2.02-16-RC12(1572021612)
