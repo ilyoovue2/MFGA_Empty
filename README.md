@@ -1,4 +1,4 @@
-This is a GitHub project that keeps update logs and links. For details, please see ‘updated.json’
+This is a GitHub project that keeps update logs and links. For details, please see ‘update.json’
 
 
 
