@@ -2,8 +2,9 @@ This is a GitHub project that keeps update logs and links. For details, please s
 
 
 
-# Power by 咿云冷雨
 CN
+
+# Power by 咿云冷雨
 > [!CAUTION]
 > 
 >本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11986/1.0.2+刷入！！！
@@ -353,6 +354,12 @@ A᫟A᫯A᫮A᫞A᫭A᫬A᫰
 ```
  - 3.优化U+1CEE0..U+1CEF0的符号大小
  - 4.同步上游字体
+ 
+ 15.7.2.02-22-RC13(1572022213)
+ - 1.新增SatisarSharada-Regular.ttf去支持Unicode17.0的新分区Sharada Supplement(11B60...11B7F)共8个符号,其中3个自制符号可能存在不规范的问题
+```
+𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
+```
 -----------------------------------------------
 
 
@@ -711,3 +718,9 @@ A᫟A᫯A᫮A᫞A᫭A᫬A᫰
 ```
 - 3.Optimize the symbol size of U+1CEE0..U+1CEF0
 - 4.Synchronize upstream fonts
+ 
+15.7.2.02-22-RC13(1572022213)
+- 1.Added SatisarSharada-Regular.ttf to support the new partition Sharada Supplement (11B60...11B7F) of Unicode17.0, with a total of 8 symbols, of which 3 self-made symbols may have non-standard problems
+```
+𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
+```
