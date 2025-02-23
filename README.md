@@ -3,6 +3,8 @@ This is a GitHub project that keeps update logs and links. For details, please s
 
 
 
+
+
 # Power by 咿云冷雨
 CN
 > [!CAUTION]
@@ -356,10 +358,32 @@ A᫟A᫯A᫮A᫞A᫭A᫬A᫰
  - 4.同步上游字体
  
  15.7.2.02-22-RC13(1572022213)
- - 1.新增SatisarSharada-Regular.ttf去支持Unicode17.0的新分区Sharada Supplement(11B60...11B7F)共8个符号,其中3个自制符号可能存在不规范的问题
+ - 1.新增SatisarSharada-Regular.ttf去支持Unicode17.0的新分区Sharada Supplement(U+11B60..U+11B7F)共8个符号,其中3个自制符号可能存在不规范的问题
 ```
 𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
 ```
+ 15.7.3.02-23-RC15(1573022315)
+ - 1.领先支持Unicode17.0 Alpha的棋子分区(Chess Symbols)新增符号(U+1FA54..U+1FA57)共4个符号
+```
+🩔🩕🩖🩗
+```
+ - 2.修正Unicode17计算机符号分区(Symbols for Legacy Computing)中的一个符号错误(U+1FBFA)
+```
+🯺
+```
+ - 3.领先支持Unicode17.0 Alpha的箭头拓展c分区(Supplemental Arrows-C)新增符号(U+1F8D0..U+1F8D8)共9个化学符号
+```
+🣐🣑🣒🣓🣔🣕🣖🣗🣘
+```
+ - 4.领先支持Unicode16新增分区计算机符号拓展(Symbols for Legacy Computing Supplement)在Unicode17.0 Alpha中的新符号(U+1CCFA、U+1CCFB、U+1CEBA..U+1CEBF)共8个符号
+```
+𜳺𜳻𜺺𜺻𜺼𜺽𜺾𜺿
+```
+ - 5.领先支持Unicode17中的一个表情符号滚动的山石(U+1F6D8)
+```
+🛘
+```
+ 
 -----------------------------------------------
 
 
@@ -609,118 +633,4 @@ c.Optimize italics đ / ŋ / þ / ә / τ / ι / γ
 d.Optimize sub/sup numbers
 e.Ensure all glyphs are vertically aligned
 ```
-- 3.Change module ID, it will be automatically uninstalled
- 
-15.6.1.01-02(1561010203)
-- 1.Adding a new update channel, you can update directly in the manager
- 
-15.6.2.01-04(1562010401)
-- 1.Optimize the installation and detection of the module, and give some tips
- 
-15.6.3.01-04-RC1(1563010402)
-- 1.Optimize module installation detection and give some prompts
-- 2.KernelSU strictly limits installation above 11989
-- 3.More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
-```
-LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
-```
-15.6.4.01-07-RC2(1564010701)
-- 1.Update Roboto to V7.0 Beta34
-```
-Roboto upstream update log:
-a.sharpen crossing corners
-b.optimize λ
-c.make plain text tag italic in italic style
-d.add ignore on >=? for rescript
-e.improve currency symbols
-f.improve miniute and second symbol
-```
-15.6.6.01-08-RC5(1566010805)
-- 1.[Global Debut (7)] Leading support for the MISCELLANEOUS SYMBOLS SUPPLEMENT partition in the Unicode 17.0 draft(U+1CEC0..U+1CEFF)
-PARTHENOPE,HEBE,EGERIA,FLORA,THETIS,AMPHITRITE,METIS,IRENE,MELPOMENE,etc.
-```
-𜻀𜻁𜻂𜻃𜻄𜻅𜻆𜻇𜻈𜻉𜻊𜻋𜻌𜻍𜻎𜻏𜻐𜻠𜻡𜻢𜻣𜻤𜻥𜻦𜻧𜻨𜻩𜻪𜻫𜻬𜻭
-```
-- 2.[World Debut (8)] Leading support for the Beria Erfe zone (U+16EA0..U+16EDF) in the Unicode 17.0 draft
-A total of 50 symbols
-```
-𖺠𖺡𖺢𖺣𖺤𖺥𖺦𖺧𖺨𖺩𖺪𖺫𖺬𖺭𖺮𖺯𖺰𖺱𖺲𖺳𖺴𖺵𖺶𖺷𖺸𖺻𖺼𖺽𖺾𖺿
-```
-15.6.7.01-11-RC6(1567011106)
-- 1.[World Debut (9)] Leading support for MiscelLaneous Symbols and Arrows partition (U+2B96) in the Unicode 17.0 draft
-```
-⮖
-```
-- 2.[World Debut (10)] Leading support for Tolong Siki partition (U+11DB0..U+11DEF) in the Unicode 17.0 draft
-```
-𑶰𑶱𑶲𑶳𑶴𑶵𑶶𑶷𑶸𑶹𑶺𑶻𑶼𑶽𑶾𑶿𑷀𑷁𑷂𑷃𑷄𑷅𑷆𑷇𑷈𑷉𑷊𑷋𑷌𑷍𑷎𑷏𑷐𑷑𑷒𑷓𑷔𑷕𑷖𑷗𑷘𑷙𑷚𑷛𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩
-```
-- 3.Reduce kernelSU limit version to 11986
- 
-15.6.8.01-12-RC7(1568011207)
-- 1.Adapt some symbols in Samsung private use area, such as positioning symbol
-```
-
-```
-- 2.Add a TTF to manage the customization of Private Use partition (Private-UseTest.ttf)
-- 3.The private area symbol U+F8FE is upgraded to the MFGA module-specific symbol
-```
-
-```
-15.6.8.01-14-RC8(1568011408)
-- 1. Optimize U+2B96 in Unicode17.0 to make it consistent with the U+2BF9 font
-```
-⯹(U+2B96)⮖(U+2BF9)
-```
-15.6.9.01-19-RC9(1569011909)
-- 1.[World Debut (11)] Leading support for the Musical Symbols Supplement block (U+1D250..U+1D28F) with 50 symbols in Unicode 17.0 (18.0)
-```
-𝉐𝉑𝉒𝉓𝉔𝉕𝉖𝉗𝉘𝉙𝉚𝉛𝉜𝉝𝉞𝉟𝉠𝉡𝉢𝉣𝉤𝉥𝉦𝉧𝉩𝉫𝉬𝉭𝉮𝉯𝉰𝉱𝉲𝉳𝉴𝉵𝉶𝉷𝉸𝉹𝉺𝉻𝉼𝉽𝉾𝉿𝊀𝊁
-```
-- 2.[World Debut (12)] Leading support for new symbols in the Alchemical Symbols block (U+1F777, U+1F778, U+1F779) from the Unicode 17.0 draft
-```
-🝷🝸🝹🝺
-```
-- 3.[World Debut (13)] Leading support for 23 new symbols in the Musical Symbols block (U+1D127, U+1D128, U+1D1EB..U+1D1FF) from the Unicode 17.0 draft
-```
-𝇫𝇬𝇭𝇮𝇯𝇰𝇱𝇲𝇳𝇴𝇵𝇶𝇷𝇸𝇹𝇺𝇻𝇼𝇽𝇾𝇿𝄧𝄨
-```
-15.7.0.01-21-RC10(1570012110)
-- 1.[World Debut (14)] First to support 26 supplementary symbols across multiple partitions of Unicode 17.0 (U+209D...U+209F, U+1ADF, U+1AEF, U+1AEE, U+1ADE, U+1AED, U+1AEC, U+1AF0, U+1879, U+0984, U+0558, U+058C, U+058B, U+20C1, U+A7E2, U+AB6C, U+AB6D, U+107BB...U+107BE, U+1F1AE, U+1F7DA)
-```
-₝₞₟᡹঄՘֌֋𐞿⃁꟢꭬꭭𐞻𐞼𐞽𐞾🆮🟚
-```
-15.7.1.01-21-RC11 (1571012111)
-- 1.Fixed a display error caused by incorrect classification of characters in the range U+1AEC..U+1AEF in the previous version. Further adjustments will be made later, but this update addresses the critical issue.
-- 2.Added support for supplementary symbols from multiple sections of Unicode 17.0 (U+A7F1, U+A7D2, U+A7D4, U+088F, U+09FF, U+A7CF).
-```
-꟱꟒꟔࢏৿꟏
-```
- 
-```
-Combining additional symbols:
-A᫟A᫯A᫮A᫞A᫭A᫬A᫰
-```
-- 3.[World Debut (15)] Leading support for the Sidetic section in the draft of Unicode 17.0 (U+10940..U+1095F) with a total of 29 symbols.
-```
-𐥀𐥁𐥂𐥃𐥄𐥅𐥆𐥇𐥈𐥉𐥊𐥋𐥌𐥍𐥎𐥏𐥐𐥑𐥒𐥓𐥔𐥕𐥖𐥗𐥘𐥙𐥚𐥛𐥜
-```
-15.7.2.02-16-RC12(1572021612)
-
-- 1.[World Debut (16)]leading support for the Chisoi block (U+16D80..U+16DA9) in Unicode 17.0 Alpha, with a total of 40 symbols:
-
-```
-𖶀𖶁𖶂𖶃𖶄𖶅𖶆𖶇𖶈𖶉𖶊𖶋𖶌𖶍𖶎𖶏𖶐𖶑𖶒𖶓𖶔𖶕𖶖𖶗 𖶘𖶙𖶚𖶛𖶜 𖶝𖶠𖶡𖶢𖶣𖶤𖶥𖶦𖶧𖶨𖶩
-```
-- 2.Support for the U+1CCFC character in the Symbols for Legacy Computing Supplement block in Unicode 17.0 Alpha:
-```
-𜳼
-```
-- 3.Optimize the symbol size of U+1CEE0..U+1CEF0
-- 4.Synchronize upstream fonts
- 
-15.7.2.02-22-RC13(1572022213)
-- 1.Added SatisarSharada-Regular.ttf to support the new partition Sharada Supplement (11B60...11B7F) of Unicode17.0, with a total of 8 symbols, of which 3 self-made symbols may have non-standard problems
-```
-𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
-```
+- 3.Change module ID, it will be automatically uninstalle
