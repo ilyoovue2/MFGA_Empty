@@ -1,4 +1,7 @@
 CN
+15.7.4.03-02-beta1(1574030201)
+ - 1.customize.sh:检测设备品牌信息,当使用小米、红米、POCO设备时启用zygisk,非这些设备时则删除。现在你可以卸载空字体模块了
+ 
 15.7.3.02-23-RC15(1573022315)
  - 1.领先支持Unicode17.0 Alpha的棋子分区(Chess Symbols)新增符号(U+1FA54..U+1FA57)共4个符号
 ```
@@ -20,14 +23,12 @@ CN
 ```
 🛘
 ```
-15.7.2.02-22-RC13(1572022213)
- - 1.新增SatisarSharada-Regular.ttf去支持Unicode17.0的新分区Sharada Supplement(11B60...11B7F)共8个符号,其中3个自制符号可能存在不规范的问题
-```
-𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
-```
+
 -------
 EN
-
+15.7.4.03-02-beta1 (1574030201)  
+- 1.customize.sh: Added device brand detection.Enables `zygisk` for Xiaomi, Redmi, and POCO devices. Removes `zygisk` for other devices.You can now uninstall empty font modules！
+ 
 15.7.3.02-23-RC15(1573022315)
 - 1.Leading support for Unicode 17.0 Alpha's Chess Symbols block (U+1FA54..U+1FA57), with 4 new symbols:
 ```
@@ -48,12 +49,6 @@ EN
 - 5.Leading support for an emoji in Unicode 17: Rolling Stone (U+1F6D8):
 ```
 🛘
-```
-
-15.7.2.02-22-RC13(1572022213)
-- 1.Added SatisarSharada-Regular.ttf to support the new partition Sharada Supplement (11B60...11B7F) of Unicode17.0, with a total of 8 symbols, of which 3 self-made symbols may have non-standard problems
-```
-𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
 ```
 
 
