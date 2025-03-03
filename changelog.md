@@ -1,4 +1,8 @@
 CN
+15.7.6.03-03-beta3(1576030303)
+ - 1.BraillePatterns+SPUA.ttf:支持全彩U+E16A,复制来自U+EEEE
+ - 2.调用新字体文件Unicodia,它将负责Unicode17.0组合附加记号扩展符号的适配,优先级大于Unicode17-new
+ 
 15.7.5.03-02-beta2(1575030202)
  - 1.customize.sh:优化对小米、红米、POCO设备的判断
  - 2.Private-UseTest.ttf:新增一些PUA符号支持(U+F83D、U+F849..U+F84F、Nokia..U+F800..U+F81A)
@@ -13,6 +17,10 @@ CN
  
 -------
 EN
+15.7.6.03-03-beta3(1576030303)
+- 1.BraillePatterns+SPUA.ttf: supports full-color U+E16A, copied from U+EEEE
+- 2. Call the new font file Unicodia, which will be responsible for the adaptation of Unicode17.0 combined additional mark extended symbols, and has a higher priority than Unicode17-new
+ 
 15.7.5.03-02-beta2(1575030202)
 - 1.customize.sh: optimize the judgment of Xiaomi, Redmi, POCO devices
 - 2.Private-UseTest.ttf: add some PUA symbol support (U+F83D, U+F849..U+F84F, Nokia..U+F800..U+F81A)
