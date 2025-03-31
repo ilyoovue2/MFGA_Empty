@@ -1,4 +1,12 @@
 CN
+15.7.9.03-30-beta7(1579033007)
+ - 1.删除PlangothicP2的中的U+A7F2...U+A7F4(Unicode14),使其和Unicode17中新增符号U+A7F1对齐
+ ```
+ ꟱ꟲꟳꟴ
+ ```
+ - 2.action.sh:开始时立即强制停止Chrome、Gmail应用,修复可能存在的`打不开应用重启恢复`的问题
+ - 3.action.sh:优化部分中英翻译
+ 
 15.7.8.03-30-beta6(1578033006)
  - 1.[全球首发(17)]领先支持Unicode17.0最后一个新增分区 TaiYo分区所有符号(U+1E6C0..U+1E6FF)共55个符号
  ```
@@ -12,18 +20,16 @@ CN
  - 4.customize.sh:修复一个Android版本号获取问题
  - 5.action.sh:新增音量键选择
  
-15.7.7.03-16-beta5(1577031605)
- - 1.更新Roboto到beta36
- - 2.更新遍黑体到3.6并删除冲突部分U+E020..U+E023
- 其中关于Unicode17.0的部分:
- ```
- 新增2个非表意文字々符：U+2B96，⮖、U+18D1D，𘴝
- 对标Unicode 17.0草案，修正7个改形的汉字：𮈺𠁗𣋰𣫲𥟌𩆬𬶘，新增4个汉字：𫜻𫜼𫜽𫜾
- ```
-
- 
 -------
 EN
+15.7.9.03-30-beta7(1579033007)
+- 1.Removed U+A7F2...U+A7F4 (Unicode14) from PlangothicP2 to align it with the newly added symbol U+A7F1 in Unicode17.
+```
+꟱ꟲꟳꟴ
+```
+- 2.action.sh: Force close Chrome and Gmail apps immediately at the start to fix the potential issue of "app not opening and restarting".
+- 3.action.sh: Optimized some Chinese and English translations.
+ 
 15.7.8.03-30-beta6(1578033006)
 - 1.[Global First Release (17)] Leading support for the final newly added block in Unicode 17.0 – the TaiYo block (U+1E6C0..U+1E6FF), consisting of 55 symbols:
 ```
@@ -36,17 +42,6 @@ EN
 - 3.Updated all primary fonts and removed conflicting parts.
 - 4.customize.sh: Fixed an issue with retrieving the Android version number.
 - 5.action.sh: Added volume key selection functionality.
- 
-15.7.7.03-16-beta5(1577031605)
-- 1.Updated Roboto to beta36
-- 2.Updated Bianhei to 3.6 and removed conflicting characters U+E020..U+E023
-```
-Regarding Unicode 17.0:
-
-- Added 2 non-ideographic symbols: U+2B96 (⮖) and U+18D1D (𘴝)  
-- Aligned with the Unicode 17.0 draft, fixed 7 modified Chinese characters: 𮈺, 𠁗, 𣋰, 𣫲, 𥟌, 𩆬, 𬶘  
-- Added 4 new Chinese characters: 𫜻, 𫜼, 𫜽, 𫜾
-```
  
 
 Telegram channel:
