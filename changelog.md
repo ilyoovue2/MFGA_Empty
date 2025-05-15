@@ -1,4 +1,7 @@
 CN
+15.8.4.05-15-beta12(1584051512)
+ - 1.修复Flyme12无法使用的问题
+ 
 15.8.3.05-10-beta11(1583051011)
  - 1.修复三个ttf可能存在的调用错误（SELFUSE没这个问题）
  - 2.更新Maplemono至7.2、Iosevka至33.2.2
@@ -17,6 +20,10 @@ CN
  
 -------
 EN
+ 
+15.8.4.05-15-beta12(1584051512)
+- 1.Fix the issue that Flyme12 cannot be used
+ 
 15.8.3.05-10-beta11(1583051011)
 - 1.Fixed possible call errors of three ttf (SELFUSE does not have this problem)
 - 2.Update Maplemono to 7.2, Iosevka to 33.2.2
