@@ -1,44 +1,21 @@
 CN
+ 
+15.8.5.05-27-beta13(1585052713)
+ - 1.更新UnicodiaFunky.ttf到最新版本,修复Unicode17.0中的U+20C1`⃁`显示问题
+ - 2.通过删除Symbola-13.otf中的所有相关标点符号解决部分表情符号+标点后标点不可见显示为空格的问题。这个操作不会对主字体产生影响,因为显示Emoji的更多是在调用NotoColorEmoji而Symbola-13.otf是作为补充作用,大约有200个符号需要通过Symbola-13.otf显示,如果仍然有问题后面再处理吧（
+ 
 15.8.4.05-15-beta12(1584051512)
  - 1.修复Flyme12无法使用的问题
- 
-15.8.3.05-10-beta11(1583051011)
- - 1.修复三个ttf可能存在的调用错误（SELFUSE没这个问题）
- - 2.更新Maplemono至7.2、Iosevka至33.2.2
- - 3.移除NotoSansSymbols2.ttf
- 
-15.8.2.05-04-beta10(1582050410)
- - 1.更新Plangotic到2.9.5777,删除冲突部分,新增以下在拓展E区的部分汉字
- ```
- 𫜿𬺢𬺣𬺤𬺥𬺦𬺧𬺨𬺩𬺪𬺫𬺬𬺭
- ```
- - 2.修复Unicode16-new.ttf中也有一些奇怪的空格显示问题
- - 3.对标Unicode17 阿拉伯变体A分区(Arabic Presentation Forms-A)新增25个符号(U+FBC3..U+FBD2、U+FD90、U+FD91、U+FDC8..U+FDCE)
- ```
- ﷈﷉﷊﷋﷌﷍﷎﶑﶐﯃﯄﯅﯆﯇﯈﯉﯊﯋﯌﯍﯎﯏﯐﯑﯒
- ```
  
 -------
 EN
  
+15.8.5.05-27-beta13(1585052713)
+- 1.Updated UnicodiaFunky.ttf to the latest version to fix the display issue of U+20C1`⃁`in Unicode 17.0.
+- 2.Resolved the issue where punctuation marks following certain emoji would appear as invisible spaces by removing all related punctuation symbols from Symbola-13.otf. This operation does not affect the main font, as emoji display primarily relies on NotoColorEmoji, and Symbola-13.otf only serves as a supplement. Around 200 symbols still rely on Symbola-13.otf for display. If further issues arise, they will be addressed later.
+ 
 15.8.4.05-15-beta12(1584051512)
 - 1.Fix the issue that Flyme12 cannot be used
- 
-15.8.3.05-10-beta11(1583051011)
-- 1.Fixed possible call errors of three ttf (SELFUSE does not have this problem)
-- 2.Update Maplemono to 7.2, Iosevka to 33.2.2
-- 3.Remove NotoSansSymbols2.ttf
- 
-15.8.2.05-04-beta10(1582050410)
-- 1.Update Plangotic to 2.9.5777, delete the conflicting parts, and add the following Chinese characters in the extended E area
-```
-𫜿𬺢𬺣𬺤𬺥𬺦𬺧𬺨𬺩𬺪𬺫𬺬𬺭
-```
-- 2.Fix some strange space display issues in Unicode16-new.ttf
-- 3.Benchmark Unicode17 Arabic Presentation Forms-A 25 new symbols(U+FBC3..U+FBD2、U+FD90、U+FD91、U+FDC8..U+FDCE)
-```
-﷈﷉﷊﷋﷌﷍﷎﶑﶐﯃﯄﯅﯆﯇﯈﯉﯊﯋﯌﯍﯎﯏﯐﯑﯒
-```
  
 
 Telegram channel:
