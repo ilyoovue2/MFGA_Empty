@@ -1,15 +1,10 @@
-This is a GitHub project that keeps update logs and links. For details, please see ‘update.json’
-
-
-
-
+CN
 
 
 # Power by 咿云冷雨
-CN
 > [!CAUTION]
 > 
->本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11986/1.0.2+刷入！！！
+>本模块新版处于测试阶段,由于使用了action.sh,需要magisk28.0+,alpha28001+,kernelSU 11986/1.0.2+,(M/R)KernelSU(NEXT)12300+刷入！！！
  
 > [!IMPORTANT]
 >
@@ -17,11 +12,11 @@ CN
  
  [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/taichi91) 
  
->>[管理器就是kernelSU或apatch或magisk(alpha)]
+>>[管理器就是(R/M)KernelSU(NEXT)或apatch(NEXT)或magisk(alpha)]
  
 >>[如果设置界面Google打不开、Play商店打不开请单独对play服务开启隐藏/卸载模块¹](这是play integrity fix模块的问题)
  
->>[KernelSU,apatch请关掉默认卸载模块²]
+>>[KernelSU,apatch系列内核管理器请关掉默认卸载模块²、Delta Magisk缺少更新无法适配、shamiko请使用黑名单]
  
  ❗¹与²并不冲突,仔细读❗
  
@@ -32,9 +27,9 @@ CN
 -  ColorOS13-15(请在设置中启用Roboto)
 -  OxygenOS 12-15
 -  RealmeUI
--  *Flyme(可能存在bug)
--  MIUI14(可能需要空字体模块)
--  澎湃OS 1/2.0(可能存在bug,要空字体模块)
+-  Flyme
+-  MIUI14
+-  澎湃OS 1/2.0
 -  三星
  
    ***⚠请使用最新版本的管理器⚠***
@@ -48,6 +43,8 @@ CN
 #⚠ play商店如果没有生效,请在管理器中点击执行(action.sh),等待文字跑完,不需要重启.
  
 -[最高效]MFGA 15.5.1版本起,Unicode16全覆盖 相当于只要是官方承认存在任何符号都有！！！
+ 
+-[自定义]15.9.0版本起,自定义内容更加可视化
  
 近版更新日志:
 
@@ -71,9 +68,9 @@ CN
 - 2.优化其他部分符号
 9.20补充日志
 - 1.新增全彩字符 双重覆盖盲文以及私用补充区A 小米苹果橘子标志
-- U+2800-U+28FF=U+FF000-U+FF0FF U+F8FF U+EEEE U+EEEF U+F8FF U+E005
+- U+2800-U+28FF=U+FF000-U+FF0FF U+F8FF U+EEEE(U+E16A) U+EEEF U+F8FF U+E005
 ```
-(小米)、(小米MIUI)、(苹果)、⠨(magisk)、󿁝(一加)等
+(小米)、(小米MIUI)、(苹果)、⠨(magisk)、󿁝(一加)等
 ```
 11.3补充日志
 - 1.[全球首发(2)]新增action.sh快捷执行
@@ -309,7 +306,7 @@ f.改进小号和二号符号
  15.6.8.01-14-RC8(1568011408)
 - 1.优化Unicode17.0中的U+2B96 使其和U+2BF9字型保持一致
 ```
-⯹(U+2B96)⮖(U+2BF9)
+⮖(U+2B96)⯹(U+2BF9)
 ```
  15.6.9.01-19-RC9(1569011909)
  - 1.[全球首发(11)]领先支持Unicode17.0(18.0)的Musical Symbols Supplement分区(U+1D250..U+1D28F)共50个符号
@@ -383,6 +380,95 @@ A᫟A᫯A᫮A᫞A᫭A᫬A᫰
 ```
 🛘
 ```
+ 15.7.4.03-02-beta1(1574030201)
+ - 1.customize.sh:检测设备品牌信息,当使用小米、红米、POCO设备时启用zygisk,非这些设备时则删除。现在你可以卸载空字体模块了
+ 
+ 15.7.5.03-02-beta2(1575030202)
+ - 1.customize.sh:优化对小米、红米、POCO设备的判断
+ - 2.Private-UseTest.ttf:新增一些PUA符号支持(U+F83D、U+F849..U+F84F、Nokia..U+F800..U+F81A)
+```
+
+```
+ - 3.MFGA-SELFUSE版本MFGA删除NotoSansSC所有PUA符号以保证Private-UseTest、Plangothic、BraillePatterns+SPUA中的符号正常显示
+ 
+ 15.7.6.03-03-beta3(1576030303)
+ - 1.BraillePatterns+SPUA.ttf:支持全彩U+E16A,复制来自U+EEEE
+ - 2.调用新字体文件Unicodia,它将负责Unicode17.0组合附加记号扩展符号的适配,优先级大于Unicode17-new
+ 
+ 15.7.7.03-16-beta5(1577031605)
+ - 1.更新Roboto到beta36
+ - 2.更新遍黑体到3.6并删除冲突部分U+E020..U+E023
+ 其中关于Unicode17.0的部分:
+ ```
+ 新增2个非表意文字々符：U+2B96，⮖、U+18D1D，𘴝
+ 对标Unicode 17.0草案，修正7个改形的汉字：𮈺𠁗𣋰𣫲𥟌𩆬𬶘，新增4个汉字：𫜻𫜼𫜽𫜾
+ 
+ ```
+ 15.7.8.03-30-beta6(1578033006)
+ - 1.[全球首发(17)]领先支持Unicode17.0最后一个新增分区 TaiYo分区所有符号(U+1E6C0..U+1E6FF)共55个符号
+ ```
+ 𞛀 𞛁 𞛂 𞛃 𞛄 𞛅 𞛆 𞛇 𞛈 𞛉 𞛊 𞛋 𞛌 𞛍 𞛎 𞛏
+𞛐 𞛑 𞛒 𞛓 𞛔 𞛕 𞛖 𞛗 𞛘 𞛙 𞛚 𞛛 𞛜 𞛝 𞛞 𞛟
+𞛠 𞛡 𞛢 𞛣 𞛤 𞛥 𞛦 𞛧 𞛨 𞛩 𞛪 𞛫 𞛬 𞛭 𞛮 𞛯
+𞛰 𞛱 𞛲 𞛳 𞛴 𞛵 𞛶 𞛷 𞛸 𞛹 𞛺 𞛻 𞛼 𞛽 𞛾 𞛿
+ ```
+ - 2.优化部分符号显示
+ - 3.更新所有主字体并删除冲突部分
+ - 4.customize.sh:修复一个Android版本号获取问题
+ - 5.action.sh:新增音量键选择
+ 
+ 15.7.9.03-30-beta7(1579033007)
+ - 1.删除PlangothicP2的中的U+A7F2...U+A7F4(Unicode14),使其和Unicode17中新增符号U+A7F1对齐
+ ```
+ ꟱ꟲꟳꟴ
+ ```
+ - 2.action.sh:开始时立即强制停止Chrome、Gmail应用,修复可能存在的`打不开应用重启恢复`的问题
+ - 3.action.sh:优化部分中英翻译
+ 
+ 15.8.0.04-17-beta8(1580041708)
+ - 1.Private-UseTest.ttf:新增一些PUA符号支持(U+E880...U+E887、U+E890...U+E895、U+E898...U+E89C、U+E8A0...U+E8B7)共41个符号
+ ```
+ 
+ ```
+ 15.8.1.04-19-beta9(1581041909)
+ - 1.修复font.xml一个缩进错误导致的优先级错误
+ - 2.删除font.xml多余的一部分并重命名部分ttf
+ - 3.新增ZUno-Number.ttf用于显示U+FFEF(不包括私用区)之前的所有被删除、未启用的符号Unicode编码,类似于unifont共1100个符号左右
+ ```
+ 比如被移除的 无-->⺚
+ ```
+ 15.8.2.05-04-beta10(1582050410)
+ - 1.更新Plangotic到2.9.5777,删除冲突部分,新增以下在拓展E区的部分汉字
+ ```
+ 𫜿𬺢𬺣𬺤𬺥𬺦𬺧𬺨𬺩𬺪𬺫𬺬𬺭
+ ```
+ - 2.修复Unicode16-new.ttf中也有一些奇怪的空格显示问题
+ - 3.对标Unicode17 阿拉伯变体A分区(Arabic Presentation Forms-A)新增25个符号(U+FBC3..U+FBD2、U+FD90、U+FD91、U+FDC8..U+FDCE)
+ ```
+ ﷈﷉﷊﷋﷌﷍﷎﶑﶐﯃﯄﯅﯆﯇﯈﯉﯊﯋﯌﯍﯎﯏﯐﯑﯒
+ ```
+ 15.8.3.05-10-beta11(1583051011)
+ - 1.修复三个ttf可能存在的调用错误（SELFUSE没这个问题）
+ - 2.更新Maplemono至7.2、Iosevka至33.2.2
+ - 3.移除NotoSansSymbols2.ttf
+ 
+ 15.8.4.05-15-beta12(1584051512)
+ - 1.修复Flyme12无法使用的问题
+ 
+ 15.8.5.05-27-beta13(1585052713)
+ - 1.更新UnicodiaFunky.ttf到最新版本,修复Unicode17.0中的U+20C1`⃁`显示问题
+ - 2.通过删除Symbola-13.otf中的所有相关标点符号解决部分表情符号+标点后标点不可见显示为空格的问题。这个操作不会对主字体产生影响,因为显示Emoji的更多是在调用NotoColorEmoji而Symbola-13.otf是作为补充作用,大约有200个符号需要通过Symbola-13.otf显示,如果仍然有问题后面再处理吧（
+ 
+ 15.9.0.06-01-RCTEST(1590060101)
+ - 1.删除Unknown-symbol-supplementRegular.ttf中部分冲突字符
+ - 2.移除NazoMin+-Regular.otf
+ - 3.字体配置文件升级至Android15->部分字体已经重新命名、少量字体后缀更改、加入DroidSansMono.ttf
+ - 4.修复U+0B67、U+2364、U+20DD组合符号在部分场景不可见的问题
+ ```
+ ୧⍤⃝
+ ```
+ - 5.主字体改为ttf后缀、直接使用数字代表字重
+ - 6.部分NotoSans字体后缀由-Medium改成-VF与Android15原生保持一致直接覆盖,阻止Android15可能的字体调用打架和重复问题
  
 -----------------------------------------------
 
@@ -392,17 +478,17 @@ EN
 # Power by YiyunLengyu
 > [!CAUTION]
 >
->This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, kernelSU 11986/1.0.2+ to be flashed! ! ! 
+>This module is in the testing phase. Since action.sh is used, it requires magisk28.0+, alpha28001+, KernelSU 11986/1.0.2+, (M/R)KernelSU(NEXT)12300+ to be flashed! ! ! 
  
 > [!IMPORTANT]
 > 
 >[Note! Executing action.sh means clicking the execute (operation) button in the manager]
->[The manager is kernelSU or apatch or magisk (alpha)]
+>[The manager is (R/M)KernelSU(NEXT) or apatch(NEXT) or magisk (alpha)]
 >[If the settings interface cannot be opened by Google or the Play store cannot be opened, please enable the (magisk)hide/uninstall module(ksu)² for the all play service](This is a problem with the "play integrity fix" module「pif」)
  
  [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/taichi91) 
  
->>[Support framework KernelSU, apatch "Please turn off the default uninstall module(ksu)²", magisk]
+>>[KernelSU, apatch series kernel managers, please turn off the default uninstall module², Delta Magisk lacks updates and cannot be adapted]
  
  ❗¹ and ² do not conflict, read carefully!!!❗
  
@@ -414,7 +500,7 @@ EN
 - RealmeUI
 - *Flyme (may have bugs)
 - MIUI14
-- HyperOS 1/2.0 (may have bugs,need emptyfont module)
+- HyperOS 1/2.0
 - Samsung
 
 
@@ -448,8 +534,8 @@ Recent version update log:
 9.20 Supplementary log
 - 1.Add full-color characters, double coverage of Braille and private supplementary area A Xiaomi Apple Orange logo
 ```
-U+2800-U+28FF=U+FF000-U+FF0FF U+F8FF U+EEEE U+EEEF U+F8FF  U+E005
-(Xiaomi), (Xiaomi MIUI), (Apple), ⠨(magisk), 󿁝(OnePlus), etc.
+U+2800-U+28FF=U+FF000-U+FF0FF U+F8FF U+EEEE(U+E16A) U+EEEF U+F8FF  U+E005
+(Xiaomi), (Xiaomi MIUI), (Apple), ⠨(magisk), 󿁝(OnePlus), etc.
 ```
  
 11.3 Supplementary log
@@ -633,4 +719,234 @@ c.Optimize italics đ / ŋ / þ / ә / τ / ι / γ
 d.Optimize sub/sup numbers
 e.Ensure all glyphs are vertically aligned
 ```
-- 3.Change module ID, it will be automatically uninstalle
+- 3.Change module ID, it will be automatically uninstalled
+ 
+15.6.1.01-02(1561010203)
+- 1.Adding a new update channel, you can update directly in the manager
+ 
+15.6.2.01-04(1562010401)
+- 1.Optimize the installation and detection of the module, and give some tips
+ 
+15.6.3.01-04-RC1(1563010402)
+- 1.Optimize module installation detection and give some prompts
+- 2.KernelSU strictly limits installation above 11989
+- 3.More comprehensive Chinese-English translation Get the current system language and send instructions in the corresponding language Cover action.sh, customize.sh, service.sh
+```
+LANGUAGE=$(getprop persist.sys.locale | cut -d'-' -f1)
+```
+15.6.4.01-07-RC2(1564010701)
+- 1.Update Roboto to V7.0 Beta34
+```
+Roboto upstream update log:
+a.sharpen crossing corners
+b.optimize λ
+c.make plain text tag italic in italic style
+d.add ignore on >=? for rescript
+e.improve currency symbols
+f.improve miniute and second symbol
+```
+15.6.6.01-08-RC5(1566010805)
+- 1.[Global Debut (7)] Leading support for the MISCELLANEOUS SYMBOLS SUPPLEMENT partition in the Unicode 17.0 draft(U+1CEC0..U+1CEFF)
+PARTHENOPE,HEBE,EGERIA,FLORA,THETIS,AMPHITRITE,METIS,IRENE,MELPOMENE,etc.
+```
+𜻀𜻁𜻂𜻃𜻄𜻅𜻆𜻇𜻈𜻉𜻊𜻋𜻌𜻍𜻎𜻏𜻐𜻠𜻡𜻢𜻣𜻤𜻥𜻦𜻧𜻨𜻩𜻪𜻫𜻬𜻭
+```
+- 2.[World Debut (8)] Leading support for the Beria Erfe zone (U+16EA0..U+16EDF) in the Unicode 17.0 draft
+A total of 50 symbols
+```
+𖺠𖺡𖺢𖺣𖺤𖺥𖺦𖺧𖺨𖺩𖺪𖺫𖺬𖺭𖺮𖺯𖺰𖺱𖺲𖺳𖺴𖺵𖺶𖺷𖺸𖺻𖺼𖺽𖺾𖺿
+```
+15.6.7.01-11-RC6(1567011106)
+- 1.[World Debut (9)] Leading support for MiscelLaneous Symbols and Arrows partition (U+2B96) in the Unicode 17.0 draft
+```
+⮖
+```
+- 2.[World Debut (10)] Leading support for Tolong Siki partition (U+11DB0..U+11DEF) in the Unicode 17.0 draft
+```
+𑶰𑶱𑶲𑶳𑶴𑶵𑶶𑶷𑶸𑶹𑶺𑶻𑶼𑶽𑶾𑶿𑷀𑷁𑷂𑷃𑷄𑷅𑷆𑷇𑷈𑷉𑷊𑷋𑷌𑷍𑷎𑷏𑷐𑷑𑷒𑷓𑷔𑷕𑷖𑷗𑷘𑷙𑷚𑷛𑷠𑷡𑷢𑷣𑷤𑷥𑷦𑷧𑷨𑷩
+```
+- 3.Reduce kernelSU limit version to 11986
+ 
+15.6.8.01-12-RC7(1568011207)
+- 1.Adapt some symbols in Samsung private use area, such as positioning symbol
+```
+
+```
+- 2.Add a TTF to manage the customization of Private Use partition (Private-UseTest.ttf)
+- 3.The private area symbol U+F8FE is upgraded to the MFGA module-specific symbol
+```
+
+```
+15.6.8.01-14-RC8(1568011408)
+- 1. Optimize U+2B96 in Unicode17.0 to make it consistent with the U+2BF9 font
+```
+⯹(U+2B96)⮖(U+2BF9)
+```
+15.6.9.01-19-RC9(1569011909)
+- 1.[World Debut (11)] Leading support for the Musical Symbols Supplement block (U+1D250..U+1D28F) with 50 symbols in Unicode 17.0 (18.0)
+```
+𝉐𝉑𝉒𝉓𝉔𝉕𝉖𝉗𝉘𝉙𝉚𝉛𝉜𝉝𝉞𝉟𝉠𝉡𝉢𝉣𝉤𝉥𝉦𝉧𝉩𝉫𝉬𝉭𝉮𝉯𝉰𝉱𝉲𝉳𝉴𝉵𝉶𝉷𝉸𝉹𝉺𝉻𝉼𝉽𝉾𝉿𝊀𝊁
+```
+- 2.[World Debut (12)] Leading support for new symbols in the Alchemical Symbols block (U+1F777, U+1F778, U+1F779) from the Unicode 17.0 draft
+```
+🝷🝸🝹🝺
+```
+- 3.[World Debut (13)] Leading support for 23 new symbols in the Musical Symbols block (U+1D127, U+1D128, U+1D1EB..U+1D1FF) from the Unicode 17.0 draft
+```
+𝇫𝇬𝇭𝇮𝇯𝇰𝇱𝇲𝇳𝇴𝇵𝇶𝇷𝇸𝇹𝇺𝇻𝇼𝇽𝇾𝇿𝄧𝄨
+```
+15.7.0.01-21-RC10(1570012110)
+- 1.[World Debut (14)] First to support 26 supplementary symbols across multiple partitions of Unicode 17.0 (U+209D...U+209F, U+1ADF, U+1AEF, U+1AEE, U+1ADE, U+1AED, U+1AEC, U+1AF0, U+1879, U+0984, U+0558, U+058C, U+058B, U+20C1, U+A7E2, U+AB6C, U+AB6D, U+107BB...U+107BE, U+1F1AE, U+1F7DA)
+```
+₝₞₟᡹঄՘֌֋𐞿⃁꟢꭬꭭𐞻𐞼𐞽𐞾🆮🟚
+```
+15.7.1.01-21-RC11 (1571012111)
+- 1.Fixed a display error caused by incorrect classification of characters in the range U+1AEC..U+1AEF in the previous version. Further adjustments will be made later, but this update addresses the critical issue.
+- 2.Added support for supplementary symbols from multiple sections of Unicode 17.0 (U+A7F1, U+A7D2, U+A7D4, U+088F, U+09FF, U+A7CF).
+```
+꟱꟒꟔࢏৿꟏
+```
+ 
+```
+Combining additional symbols:
+A᫟A᫯A᫮A᫞A᫭A᫬A᫰
+```
+- 3.[World Debut (15)] Leading support for the Sidetic section in the draft of Unicode 17.0 (U+10940..U+1095F) with a total of 29 symbols.
+```
+𐥀𐥁𐥂𐥃𐥄𐥅𐥆𐥇𐥈𐥉𐥊𐥋𐥌𐥍𐥎𐥏𐥐𐥑𐥒𐥓𐥔𐥕𐥖𐥗𐥘𐥙𐥚𐥛𐥜
+```
+15.7.2.02-16-RC12(1572021612)
+
+- 1.[World Debut (16)]leading support for the Chisoi block (U+16D80..U+16DA9) in Unicode 17.0 Alpha, with a total of 40 symbols:
+
+```
+𖶀𖶁𖶂𖶃𖶄𖶅𖶆𖶇𖶈𖶉𖶊𖶋𖶌𖶍𖶎𖶏𖶐𖶑𖶒𖶓𖶔𖶕𖶖𖶗 𖶘𖶙𖶚𖶛𖶜 𖶝𖶠𖶡𖶢𖶣𖶤𖶥𖶦𖶧𖶨𖶩
+```
+- 2.Support for the U+1CCFC character in the Symbols for Legacy Computing Supplement block in Unicode 17.0 Alpha:
+```
+𜳼
+```
+- 3.Optimize the symbol size of U+1CEE0..U+1CEF0
+- 4.Synchronize upstream fonts
+ 
+15.7.2.02-22-RC13(1572022213)
+- 1.Added SatisarSharada-Regular.ttf to support the new partition Sharada Supplement (11B60...11B7F) of Unicode17.0, with a total of 8 symbols, of which 3 self-made symbols may have non-standard problems
+```
+𑭠 𑭡 𑭢 𑭣 𑭤 𑭥 𑭦 𑭧
+```
+15.7.3.02-23-RC15(1573022315)
+- 1.Leading support for Unicode 17.0 Alpha's Chess Symbols block (U+1FA54..U+1FA57), with 4 new symbols:
+```
+🩔🩕🩖🩗
+```
+- 2.Fixed a symbol error in Unicode 17's Symbols for Legacy Computing block (U+1FBFA):
+```
+🯺
+```
+- 3.Leading support for Unicode 17.0 Alpha's Supplemental Arrows-C block (U+1F8D0..U+1F8D8), with 9 new chemical symbols:
+```
+🣐🣑🣒🣓🣔🣕🣖🣗🣘
+```
+- 4.Leading support for new symbols in Unicode 17.0 Alpha from the Unicode 16 Symbols for Legacy Computing Supplement block (U+1CCFA, U+1CCFB, U+1CEBA..U+1CEBF), with 8 new symbols:
+```
+𜳺𜳻𜺺𜺻𜺼𜺽𜺾𜺿
+```
+- 5.Leading support for an emoji in Unicode 17: Rolling Stone (U+1F6D8):
+```
+🛘
+```
+15.7.4.03-02-beta1 (1574030201)  
+- 1.customize.sh: Added device brand detection.Enables `zygisk` for Xiaomi, Redmi, and POCO devices. Removes `zygisk` for other devices.You can now uninstall empty font modules！
+ 
+15.7.5.03-02-beta2(1575030202)
+- 1.customize.sh: optimize the judgment of Xiaomi, Redmi, POCO devices
+- 2.Private-UseTest.ttf: add some PUA symbol support (U+F83D, U+F849..U+F84F, Nokia..U+F800..U+F81A)
+```
+
+```
+- 3.MFGA-SELFUSE version MFGA deletes all PUA symbols in NotoSansSC to ensure the normal display of symbols in Private-UseTest, Plangothic, BraillePatterns+SPUA
+ 
+15.7.6.03-03-beta3(1576030303)
+- 1.BraillePatterns+SPUA.ttf: supports full-color U+E16A, copied from U+EEEE
+- 2.Call the new font file Unicodia, which will be responsible for the adaptation of Unicode17.0 combined additional mark extended symbols, and has a higher priority than Unicode17-new
+ 
+15.7.7.03-16-beta5(1577031605)
+- 1.Updated Roboto to beta36
+- 2.Updated Bianhei to 3.6 and removed conflicting characters U+E020..U+E023
+```
+Regarding Unicode 17.0:
+
+- Added 2 non-ideographic symbols: U+2B96 (⮖) and U+18D1D (𘴝)  
+- Aligned with the Unicode 17.0 draft, fixed 7 modified Chinese characters: 𮈺, 𠁗, 𣋰, 𣫲, 𥟌, 𩆬, 𬶘  
+- Added 4 new Chinese characters: 𫜻, 𫜼, 𫜽, 𫜾
+```
+15.7.8.03-30-beta6(1578033006)
+- 1.[Global First Release (17)] Leading support for the final newly added block in Unicode 17.0 – the TaiYo block (U+1E6C0..U+1E6FF), consisting of 55 symbols:
+```
+𞛀 𞛁 𞛂 𞛃 𞛄 𞛅 𞛆 𞛇 𞛈 𞛉 𞛊 𞛋 𞛌 𞛍 𞛎 𞛏  
+𞛐 𞛑 𞛒 𞛓 𞛔 𞛕 𞛖 𞛗 𞛘 𞛙 𞛚 𞛛 𞛜 𞛝 𞛞 𞛟  
+𞛠 𞛡 𞛢 𞛣 𞛤 𞛥 𞛦 𞛧 𞛨 𞛩 𞛪 𞛫 𞛬 𞛭 𞛮 𞛯  
+𞛰 𞛱 𞛲 𞛳 𞛴 𞛵 𞛶 𞛷 𞛸 𞛹 𞛺 𞛻 𞛼 𞛽 𞛾 𞛿
+```
+- 2.Optimized the display of certain symbols.
+- 3.Updated all primary fonts and removed conflicting parts.
+- 4.customize.sh: Fixed an issue with retrieving the Android version number.
+- 5.action.sh: Added volume key selection functionality.
+ 
+15.7.9.03-30-beta7(1579033007)
+- 1.Removed U+A7F2...U+A7F4 (Unicode14) from PlangothicP2 to align it with the newly added symbol U+A7F1 in Unicode17.
+```
+꟱ꟲꟳꟴ
+```
+- 2.action.sh: Force close Chrome and Gmail apps immediately at the start to fix the potential issue of "app not opening and restarting".
+- 3.action.sh: Optimized some Chinese and English translations.
+ 
+15.8.0.04-17-beta8(1580041708)
+- 1.Private-UseTest.ttf: Added some PUA symbol support (U+E880...U+E887, U+E890...U+E895, U+E898...U+E89C, U+E8A0...U+E8B7), a total of 41 symbols
+```
+
+```
+15.8.1.04-19-beta9 (1581041909)
+- 1.Fixed a priority issue caused by an indentation error in font.xml
+- 2.Removed redundant parts of font.xml and renamed some .ttf files
+- 3.Added ZUno-Number.ttf to display all deleted or disabled Unicode symbols before U+FFEF (excluding the Private Use Area), similar to unifont, covering around 1100 symbols
+```
+For example, the removed 無 --> ⺚
+```
+15.8.2.05-04-beta10(1582050410)
+- 1.Update Plangotic to 2.9.5777, delete the conflicting parts, and add the following Chinese characters in the extended E area
+```
+𫜿𬺢𬺣𬺤𬺥𬺦𬺧𬺨𬺩𬺪𬺫𬺬𬺭
+```
+- 2.Fix some strange space display issues in Unicode16-new.ttf
+- 3.Benchmark Unicode17 Arabic Presentation Forms-A 25 new symbols(U+FBC3..U+FBD2、U+FD90、U+FD91、U+FDC8..U+FDCE)
+```
+﷈﷉﷊﷋﷌﷍﷎﶑﶐﯃﯄﯅﯆﯇﯈﯉﯊﯋﯌﯍﯎﯏﯐﯑﯒
+```
+15.8.3.05-10-beta11(1583051011)
+- 1.Fixed possible call errors of three ttf (SELFUSE does not have this problem)
+- 2.Update Maplemono to 7.2, Iosevka to 33.2.2
+- 3.Remove NotoSansSymbols2.ttf
+ 
+15.8.4.05-15-beta12(1584051512)
+- 1.Fix the issue that Flyme12 cannot be used
+ 
+15.8.5.05-27-beta13(1585052713)
+- 1.Updated UnicodiaFunky.ttf to the latest version to fix the display issue of U+20C1`⃁`in Unicode 17.0.
+- 2.Resolved the issue where punctuation marks following certain emoji would appear as invisible spaces by removing all related punctuation symbols from Symbola-13.otf. This operation does not affect the main font, as emoji display primarily relies on NotoColorEmoji, and Symbola-13.otf only serves as a supplement. Around 200 symbols still rely on Symbola-13.otf for display. If further issues arise, they will be addressed later.
+ 
+15.9.0.06-01-RCTEST(1590060101)
+ - 1.Removed conflicting characters from Unknown-symbol-supplementRegular.ttf
+ - 2.Removed NazoMin+-Regular.otf
+ - 3.Upgraded font configuration to Android 15:
+      • Some fonts have been renamed
+      • A few font suffixes changed
+      • Added DroidSansMono.ttf
+ - 4.Fixed invisibility issues in certain cases for combining characters:
+U+0B67, U+2364, U+20DD
+```
+୧⍤⃝
+```
+ - 5.Switched main fonts to .ttf format, using numeric values to represent weights
+ - 6.Changed some NotoSans font suffixes from -Medium to -VF for consistency with Android 15;
+      this avoids potential font conflict or duplication issues
