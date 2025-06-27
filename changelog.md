@@ -1,5 +1,13 @@
 CN
  
+15.9.1.06-27(1591062700)
+ - 1.修复一些符号的与标点符号混用问题
+ - 2.修复两个主字体重要组合附加符号缺失
+ - 3.修复表情符号和旧意大利两个分区缺失了5个符号(U+1032D..1032F、U+1F547..1F548)
+ ```
+ 𐌭𐌮𐌯🕇🕈
+ ```
+ 
 15.9.0.06-01-RCTEST(1590060101)
  - 1.删除Unknown-symbol-supplementRegular.ttf中部分冲突字符
  - 2.移除NazoMin+-Regular.otf
@@ -13,6 +21,14 @@ CN
  
 -------
 EN
+ 
+15.9.1.06-27(1591062700)
+- 1.Fixed issues with mixing certain symbols and punctuation marks
+- 2.Fixed missing important combining marks in two primary fonts
+- 3.Fixed 5 missing characters in the Emoji and Old Italic blocks (U+1032D..1032F, U+1F547..1F548)
+```
+𐌭𐌮𐌯🕇🕈
+```
  
 15.9.0.06-01-RCTEST(1590060101)
  - 1.Removed conflicting characters from Unknown-symbol-supplementRegular.ttf
